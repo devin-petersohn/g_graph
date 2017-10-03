@@ -1,4 +1,5 @@
 import ray
+import ray.local_scheduler as local_scheduler
 
 # store access to nodes by their global coordinate
 class MasterStore:
@@ -8,10 +9,24 @@ class MasterStore:
         referenceStore[datatype] = {}
     
     def updateRef(self, datatype, key, value):
-        self.referenceStore[datatype][key] = value
+        if(isinstance(value, local_scheduler.ObjectID)):
+            oid = value
+        else if isinstance(oid, Node):
+            oid = ray.put(value)
+        else:
+            raise ValueError("Can only insert Node objects into the graph.")
+
+        self.referenceStore[datatype][key] = oid
         
     def getRef(self, datatype, key):
-        return self.referenceStore[datatype][key]
+        ref = self.referenceStore[datatype][key]
+        # check if this is a ray object id or a node
+        if isinstance(oid, local_scheduler.ObjectID):
+            return ray.get(ref)
+        else if isinstance(oid, Node):
+            return ref
+        else:
+            raise ValueError("The graph does not contain references or nodes at key: \'" + key + "\'")
     
     def refExists(self, datatype, key):
         return datatype in self.referenceStore and key in self.referenceStore[datatype]
@@ -89,7 +104,7 @@ def buildDnaGraph(referenceGenome, dnaTestData, masterStore):
             
             masterStore.updateRef("dna", variant["coordinateStart"], node)
 
-def dfs(graphName, startNodeID, masterStore):
+def bfs(graphName, startNodeID, masterStore):
     q = [startNodeID]
     visited = []
 
@@ -104,12 +119,6 @@ def dfs(graphName, startNodeID, masterStore):
         for i in node.neighbors:
             if i not in visited and i not in q:
                 q.append(i)
-
-def moveToRay(masterStore):
-    for graph in masterStore.referenceStore:
-        for node in masterStore.referenceStore[graph]:
-            oid = ray.put(masterStore.referenceStore[graph][node])
-            masterStore.referenceStore[graph][node] = oid
 
 if __name__ == "__main__":
     ray.init()
@@ -137,15 +146,12 @@ if __name__ == "__main__":
     buildDnaGraph(referenceGenome, dnaTestData, masterStore)
 
     # traverse our new graph to look at
-    dfs("dna", 0.0, masterStore)
+    bfs("dna", 0.0, masterStore)
 
-    print(masterStore.referenceStore["individuals"][0].interGraphLinks)
-    print(masterStore.referenceStore["individuals"][1].interGraphLinks)
+    print(masterStore.getRef("individuals", 0).interGraphLinks)
+    print(masterStore.getRef("individuals", 1).interGraphLinks)
 
-    moveToRay(masterStore)
+    #moveToRay(masterStore)
 
-    print(masterStore.referenceStore["individuals"][0])
-    print(masterStore.referenceStore["individuals"][1])
-
-    print(ray.get(masterStore.referenceStore["individuals"][0]).interGraphLinks)
-    print(ray.get(masterStore.referenceStore["individuals"][1]).interGraphLinks)
+    print(masterStore.getRef("individuals", 0))
+    print(masterStore.getRef("individuals", 1))
