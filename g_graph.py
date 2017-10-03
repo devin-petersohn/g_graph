@@ -10,10 +10,9 @@ class MasterStore:
     
     def updateRef(self, datatype, key, value):
         oid = value
-        if isinstance(oid, Node):
-            oid = ray.put(value)
-        else:
-            raise ValueError("Can only insert Node objects into the graph.")
+        
+        if not isinstance(oid, local_scheduler.ObjectID):
+            oid = ray.put(value)        
 
         self.referenceStore[datatype][key] = oid
         
@@ -50,7 +49,8 @@ class Node:
                 self.interGraphLinks[datatype].append(key)
         else:
             self.interGraphLinks[datatype] = [key]
-    
+        
+
     def merge(self, otherNode):
         for i in otherNode.neighbors:
             self.addNeighbor(i)
@@ -97,9 +97,11 @@ def buildDnaGraph(referenceGenome, dnaTestData, masterStore):
                 if(masterStore.refExists("dna", neighbor)):
                     tempNode = masterStore.getRef("dna", neighbor)
                     tempNode.addNeighbor(variant["coordinateStart"])
+                    masterStore.updateRef("dna", neighbor, tempNode)
                     
             indivNode = masterStore.getRef("individuals", indiv["individualID"])
             indivNode.addInterGraphLink("dna", variant["coordinateStart"])
+            masterStore.updateRef("individuals", indiv["individualID"], indivNode)
             
             masterStore.updateRef("dna", variant["coordinateStart"], node)
 
