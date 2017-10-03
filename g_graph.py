@@ -9,9 +9,8 @@ class MasterStore:
         referenceStore[datatype] = {}
     
     def updateRef(self, datatype, key, value):
-        if(isinstance(value, local_scheduler.ObjectID)):
-            oid = value
-        else if isinstance(oid, Node):
+        oid = value
+        if isinstance(oid, Node):
             oid = ray.put(value)
         else:
             raise ValueError("Can only insert Node objects into the graph.")
@@ -21,9 +20,9 @@ class MasterStore:
     def getRef(self, datatype, key):
         ref = self.referenceStore[datatype][key]
         # check if this is a ray object id or a node
-        if isinstance(oid, local_scheduler.ObjectID):
+        if isinstance(ref, local_scheduler.ObjectID):
             return ray.get(ref)
-        else if isinstance(oid, Node):
+        elif isinstance(ref, Node):
             return ref
         else:
             raise ValueError("The graph does not contain references or nodes at key: \'" + key + "\'")
@@ -150,8 +149,6 @@ if __name__ == "__main__":
 
     print(masterStore.getRef("individuals", 0).interGraphLinks)
     print(masterStore.getRef("individuals", 1).interGraphLinks)
-
-    #moveToRay(masterStore)
 
     print(masterStore.getRef("individuals", 0))
     print(masterStore.getRef("individuals", 1))
