@@ -5,7 +5,7 @@ import ray
 
 if __name__ == "__main__":
     ray.init()
-    master_store = MasterStore.remote()
+    adj_list_collection = Adj_List_Collection.remote()
 
     reference_genome = "CAGTCCTAGCTACGCTCTATCCTCTCAGAGGACCGATCGATATACGCGTGAAACTAGTGCACTAGACTCGAACTGA"
     dna_test_data = [{"individualID":0, "dnaData":
@@ -19,27 +19,34 @@ if __name__ == "__main__":
     # individual IDs
     individuals = {0: {"Name":"John Doe", "Gender":"M"}, 1: {"Name":"Jane Doe", "Gender":"M"}}
 
-    build_individuals_graph(individuals, master_store)
-    print(ray.get(master_store.get_node.remote("individuals", 0)).data)
-    print(ray.get(master_store.get_node.remote("individuals", 1)).data)
+    build_individuals_graph(individuals, adj_list_collection)
+    print(ray.get(adj_list_collection.get_node.remote("individuals", 0)).data)
+    print(ray.get(adj_list_collection.get_node.remote("individuals", 1)).data)
 
     # build the graph
-    build_dna_graph(reference_genome, dna_test_data, master_store)
+    build_dna_graph(reference_genome, dna_test_data, adj_list_collection)
+
+    x = ray.get(adj_list_collection.get_graph.remote("dna"))
+
+    print(x)
+
+    print(ray.get(x.get_oid_dictionary.remote()))
 
     # traverse our new graph to look at
-    for i in ray.get(master_store.bfs.remote("dna", 0.0)):
-        print(str(i.key) + "\t" + str(i.data) + "\t" + str(ray.get(master_store.get_inter_graph_connections.remote("dna", i.key))))
+    # for i in ray.get(ray.get(adj_list_collection.bfs.remote("dna", 0.0))[0]):
+    #     i = ray.get(i)
+    #     print(str(i.key) + "\t" + str(i.data) + "\t" + str(ray.get(adj_list_collection.get_inter_graph_connections.remote("dna", i.key))))
 
-    print(ray.get(master_store.get_inter_graph_connections.remote("individuals", 0)))
-    print(ray.get(master_store.get_inter_graph_connections.remote("individuals", 1)))
+    print(ray.get(adj_list_collection.get_inter_graph_connections.remote("individuals", 0)))
+    print(ray.get(adj_list_collection.get_inter_graph_connections.remote("individuals", 1)))
 
-    print(ray.get(master_store.get_node.remote("individuals", 0)))
-    print(ray.get(master_store.get_node.remote("individuals", 1)))
+    print(ray.get(adj_list_collection.get_node.remote("individuals", 0)))
+    print(ray.get(adj_list_collection.get_node.remote("individuals", 1)))
 
     # this will store all reads in their original form
-    master_store.add_graph.remote("reads")
+    adj_list_collection.add_graph.remote("reads")
     # this will store the genome graph for all reads
-    master_store.add_graph.remote("reads_genome_graph")
+    adj_list_collection.add_graph.remote("reads_genome_graph")
 
     #sample reads
     sample_read_data = [{"contigName": "chr1", "start": 268051, "end": 268101, "mapq": 0, "readName": "D3NH4HQ1:95:D0MT5ACXX:2:2307:5603:121126", "sequence": "GGAGTGGGGGCAGCTACGTCCTCTCTTGAGCTACAGCAGATTCACTCNCT", "qual": "BCCFDDFFHHHHHJJJIJJJJJJIIIJIGJJJJJJJJJIIJJJJIJJ###", "cigar": "50M", "readPaired": False, "properPair": False, "readMapped": True, "mateMapped": False, "failedVendorQualityChecks": False, "duplicateRead": False, "readNegativeStrand": False, "mateNegativeStrand": False, "primaryAlignment": True, "secondaryAlignment": False, "supplementaryAlignment": False, "mismatchingPositions": "47T0G1", "origQual": None, "attributes": "XT:A:R\tXO:i:0\tXM:i:2\tNM:i:2\tXG:i:0\tXA:Z:chr16,-90215399,50M,2;chr6,-170736451,50M,2;chr8,+71177,50M,3;chr1,+586206,50M,3;chr1,+357434,50M,3;chr5,-181462910,50M,3;chr17,-83229095,50M,3;\tX1:i:5\tX0:i:3", "recordGroupName": None, "recordGroupSample": None, "mateAlignmentStart": None, "mateAlignmentEnd": None, "mateContigName": None, "inferredInsertSize": None},
@@ -54,7 +61,7 @@ if __name__ == "__main__":
                         {"contigName": "chr1", "start": 3052271, "end": 3052321, "mapq": 25, "readName": "D3NH4HQ1:95:D0MT5ACXX:2:2107:21352:43370", "sequence": "TCANTCATCTTCCATCCATCCGTCCAACAACCATTTGTTGATCATCTCTC", "qual": "@@<#4AD?ACDCDHGIDA>C?<A;8CBEEBAG1D?BG?GH?@DEHFG@FH", "cigar": "50M", "readPaired": False, "properPair": False, "readMapped": True, "mateMapped": False, "failedVendorQualityChecks": False, "duplicateRead": False, "readNegativeStrand": False, "mateNegativeStrand": False, "primaryAlignment": True, "secondaryAlignment": False, "supplementaryAlignment": False, "mismatchingPositions": "3C44A0T0", "origQual": None, "attributes": "XT:A:U\tXO:i:0\tXM:i:3\tNM:i:3\tXG:i:0\tX1:i:0\tX0:i:1", "recordGroupName": None, "recordGroupSample": None, "mateAlignmentStart": None, "mateAlignmentEnd": None, "mateContigName": None, "inferredInsertSize": None}]
 
     for read in sample_read_data:
-        master_store.add_node_to_graph.remote("reads", read["readName"], Node(read["readName"], read, "reads"))
+        adj_list_collection.add_node_to_graph.remote("reads", read["readName"], Node(read["readName"], read, "reads"))
         for index in range(len(read["sequence"])):
             data = read["sequence"][index]
 
@@ -67,11 +74,11 @@ if __name__ == "__main__":
             coordinate = read["contigName"] + "\t" + str(read["start"] + index)
             node = Node(coordinate, data, "reads_genome_graph")
 
-            master_store.add_node_to_graph.remote("reads_genome_graph", coordinate, node, neighbors)
-            master_store.add_inter_graph_connection.remote("reads_genome_graph", coordinate, "reads", read["readName"])
+            adj_list_collection.add_node_to_graph.remote("reads_genome_graph", coordinate, node, neighbors)
+            adj_list_collection.add_inter_graph_connection.remote("reads_genome_graph", coordinate, "reads", read["readName"])
 
     # for storing the feature data
-    master_store.add_graph.remote("features")
+    adj_list_collection.add_graph.remote("features")
 
     sampleFeatures = [{"featureName": "0", "contigName": "chr1", "start": 45520936, "end": 45522463, "score": 0.0, "attributes": {"itemRgb": "5.0696939910406", "blockCount": "878", "thickStart": "482.182760214932", "thickEnd": "-1"}},
                         {"featureName": "1", "contigName": "chr1", "start": 88891087, "end": 88891875, "score": 0.0, "attributes": {"itemRgb": "5.0696939910406", "blockCount": "423", "thickStart": "446.01797654123", "thickEnd": "-1"}},
@@ -95,14 +102,14 @@ if __name__ == "__main__":
     try:
         for feature in sampleFeatures:
             node = Node(feature["featureName"], feature, "features")
-            master_store.add_node_to_graph.remote("features", feature["featureName"], node)
+            adj_list_collection.add_node_to_graph.remote("features", feature["featureName"], node)
             for index in range(feature["end"] - feature["start"]):
                 coordinate = feature["contigName"] + "\t" + str(read["start"] + index)
-                master_store.add_inter_graph_connection.remote("features", feature["featureName"], "reads_genome_graph", coordinate)
+                adj_list_collection.add_inter_graph_connection.remote("features", feature["featureName"], "reads_genome_graph", coordinate)
 
-        print("BFS BEGIN")
+        # print("BFS BEGIN")
 
-        for i in ray.get(master_store.bfs.remote("reads_genome_graph", "chr1\t1443674")):
-            print(str(i.key) + "\t" + str(i.data))
+        # for i in ray.get(adj_list_collection.bfs.remote("reads_genome_graph", "chr1\t1443674")):
+        #     print(str(i.key) + "\t" + str(i.data))
     except Exception as e:
         print("Something happened: " + str(e))
