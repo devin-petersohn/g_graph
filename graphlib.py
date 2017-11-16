@@ -2,7 +2,6 @@ import ray
 import ray.local_scheduler as local_scheduler
 
 # store access to nodes by their global coordinate
-@ray.remote
 class Adj_List_Collection:
 
     def __init__(self):
@@ -30,6 +29,10 @@ class Adj_List_Collection:
     def add_inter_graph_connection(self, graph_id, key, other_graph_id, other_graph_key):
         self.adjacency_list[graph_id].add_inter_graph_connection.remote(key, other_graph_id, other_graph_key)
         self.adjacency_list[other_graph_id].add_inter_graph_connection.remote(other_graph_key, graph_id, key)
+
+    def add_multiple_inter_graph_connections(self, graph_id, key, other_graph_id, collection_of_other_graph_keys):
+        self.adjacency_list[other_graph_id].add_multiple_inter_graph_connections.remote(key, other_graph_id, collection_of_other_graph_keys)
+        reverse_add_to_inter_graph_connections_multi.remote(self.adjacency_list[other_graph_id], key, graph_id, collection_of_other_graph_keys)
         
     def node_exists(self, graph_id, key):
         return graph_id in self.adjacency_list and ray.get(self.adjacency_list[graph_id].get_adjacency_list.remote(key))
@@ -80,6 +83,14 @@ class Adjacency_List:
             self.inter_graph_connections[key][other_graph_id] = ray.put(Adj_List_Row(set([adjacency_list])))
         else:
             self.inter_graph_connections[key][other_graph_id] = add_to_inter_graph_connections.remote(self.inter_graph_connections[key][other_graph_id], adjacency_list)
+
+    def add_multiple_inter_graph_connections(self, key, other_graph_id, adjacency_list):
+        if not key in self.inter_graph_connections:
+            self.create_inter_graph_connection(key)
+
+        if not other_graph_id in self.inter_graph_connections[key]:
+            self.inter_graph_connections[key][other_graph_id] = ray.put(Adj_List_Row(adjacency_list))
+        self.inter_graph_connections[key][other_graph_id] = add_to_inter_graph_connections.remote(self.inter_graph_connections[key][other_graph_id], set(adjacency_list))
             
     def get_oid_dictionary(self, key = ""):
         if key == "":
@@ -102,14 +113,16 @@ class Adjacency_List:
 class Adj_List_Row:
 
     def __init__(self, adjacency_list = set()):
-        self.adjacency_list = adjacency_list
+        if type(adjacency_list) is not set:
+            self.adjacency_list = set(adjacency_list)
+        else:
+            self.adjacency_list = adjacency_list
 
     def add_connection(self, new_node_key):
         self.adjacency_list.add(new_node_key)
 
     def add_multiple_connections(self, set_of_new_nodes):
-        for node in set_of_new_nodes:
-            self.add_connection(node)
+        self.adjacency_list.update(set_of_new_nodes)
 
     def get_connections(self):
         return self.adjacency_list
@@ -145,19 +158,28 @@ def add_to_adj_list(adj_list, other_key):
 
 @ray.remote
 def add_to_inter_graph_connections(inter_graph_connections, new_connection):
-    inter_graph_connections.add_connection(new_connection)
+    if type(new_connection) is set:
+        inter_graph_connections.add_multiple_connections(new_connection)
+    else:
+        inter_graph_connections.add_connection(new_connection)
     return inter_graph_connections
+
 
 def build_individuals_graph(individuals, adj_list_collection):
     graph_id = "individuals"
     for indiv_id, data in individuals.items():
         node = Node(indiv_id, data, graph_id)
-        adj_list_collection.add_node_to_graph.remote(graph_id, indiv_id, node)
+        adj_list_collection.add_node_to_graph(graph_id, indiv_id, node)
 
 @ray.remote
 def build_graph_distributed(adj_list_collection, graph_id, indiv):
     for variant in indiv["dnaData"]:
         build_node.remote(adj_list_collection, variant, graph_id, indiv)
+
+@ray.remote
+def reverse_add_to_inter_graph_connections_multi(adj_list, key, graph_id, collection_of_other_graph_keys):
+    for other_graph_key in collection_of_other_graph_keys:
+            adj_list.add_inter_graph_connection.remote(other_graph_key, graph_id, key)
 
 @ray.remote
 def build_node(adj_list_collection, variant, graph_id, indiv):
@@ -171,12 +193,12 @@ def build_node(adj_list_collection, variant, graph_id, indiv):
     # create a new node for the individual data
     node = Node(coordinate, variant["variantAllele"], graph_id)
     
-    adj_list_collection.add_node_to_graph.remote(graph_id, coordinate, node, neighbors)
-    adj_list_collection.add_inter_graph_connection.remote(graph_id, coordinate, "individuals", indiv["individualID"])
+    adj_list_collection.add_node_to_graph(graph_id, coordinate, node, neighbors)
+    adj_list_collection.add_inter_graph_connection(graph_id, coordinate, "individuals", indiv["individualID"])
     
     edge_to_this_node = Edge(coordinate, 0, "none")
     for neighbor in neighbors:
-        adj_list_collection.append_to_adjacency_list.remote(graph_id, neighbor.destination, edge_to_this_node)
+        adj_list_collection.append_to_adjacency_list(graph_id, neighbor.destination, edge_to_this_node)
 
 def build_dna_graph(reference_genome, dna_test_data, adj_list_collection):
     graph_id = "dna"
@@ -195,7 +217,7 @@ def build_dna_graph(reference_genome, dna_test_data, adj_list_collection):
         node = Node(coordinate, reference_genome[i], graph_id)
 
         # store a link to the object in the masterStore
-        adj_list_collection.add_node_to_graph.remote(graph_id, coordinate, node, neighbors)
+        adj_list_collection.add_node_to_graph(graph_id, coordinate, node, neighbors)
     
 
     for indiv in dna_test_data:
@@ -211,10 +233,10 @@ def build_dna_graph(reference_genome, dna_test_data, adj_list_collection):
             # create a new node for the individual data
             node = Node(coordinate, variant["variantAllele"], graph_id)
             
-            adj_list_collection.add_node_to_graph.remote(graph_id, coordinate, node, neighbors)
-            adj_list_collection.add_inter_graph_connection.remote(graph_id, coordinate, "individuals", indiv["individualID"])
+            adj_list_collection.add_node_to_graph(graph_id, coordinate, node, neighbors)
+            adj_list_collection.add_inter_graph_connection(graph_id, coordinate, "individuals", indiv["individualID"])
             
             edge_to_this_node = Edge(coordinate, 0, "none")
             for neighbor in neighbors:
-                adj_list_collection.append_to_adjacency_list.remote(graph_id, neighbor.destination, edge_to_this_node)
+                adj_list_collection.append_to_adjacency_list(graph_id, neighbor.destination, edge_to_this_node)
 
