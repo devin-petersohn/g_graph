@@ -2,10 +2,80 @@ import graphlib
 from graphlib import *
 import ray
 
+@ray.remote
+def build_node(adj_list_collection, variant, graph_id, indiv):
+
+    coordinate = variant["coordinateStart"]
+    # store the coordinates of neighboring nodes
+    neighbors = []
+    neighbors.append(Edge(float(int(coordinate) - 1), 0, "left"))
+    neighbors.append(Edge(float(int(variant["coordinateStop"])), 0, "right"))
+
+    # create a new node for the individual data
+    node = Node(variant["variantAllele"])
+    
+    adj_list_collection.add_node_to_graph(graph_id, coordinate, node, neighbors)
+    adj_list_collection.add_inter_graph_connection(graph_id, coordinate, "individuals", indiv["individualID"])
+    
+    edge_to_this_node = Edge(coordinate, 0, "none")
+    for neighbor in neighbors:
+        adj_list_collection.append_to_adjacency_list(graph_id, neighbor.destination, edge_to_this_node)
+
+@ray.remote
+def build_graph_distributed(adj_list_collection, graph_id, indiv):
+    for variant in indiv["dnaData"]:
+        build_node.remote(adj_list_collection, variant, graph_id, indiv)
+
+def build_individuals_graph(individuals, adj_list_collection):
+    graph_id = "individuals"
+    for indiv_id, data in individuals.items():
+        node = Node(data)
+        adj_list_collection.add_node_to_graph(graph_id, indiv_id, node)
+
+def build_dna_graph(reference_genome, dna_test_data, adj_list_collection):
+    graph_id = "dna"
+    # start building the graph
+    for i in range(len(reference_genome)):
+        coordinate = float(i)
+        # store the coordinates of neighboring nodes
+        neighbors = []
+
+        if i != 0:
+            neighbors.append(Edge(float(i - 1), 0, "left"))
+        if i != len(reference_genome) - 1:
+            neighbors.append(Edge(float(i + 1), 0, "right"))
+        
+        # create a new node
+        node = Node(reference_genome[i])
+
+        # store a link to the object in the masterStore
+        adj_list_collection.add_node_to_graph(graph_id, coordinate, node, neighbors)
+    
+
+    for indiv in dna_test_data:
+        # build_graph_distributed.remote(adj_list_collection, graph_id, indiv)
+        for variant in indiv["dnaData"]:
+            
+            coordinate = variant["coordinateStart"]
+            # store the coordinates of neighboring nodes
+            neighbors = []
+            neighbors.append(Edge(float(int(coordinate) - 1), 0, "left"))
+            neighbors.append(Edge(float(int(variant["coordinateStop"])), 0, "right"))
+
+            # create a new node for the individual data
+            node = Node(variant["variantAllele"])
+            
+            adj_list_collection.add_node_to_graph(graph_id, coordinate, node, neighbors)
+            adj_list_collection.add_inter_graph_connection(graph_id, coordinate, "individuals", indiv["individualID"])
+            
+            edge_to_this_node = Edge(coordinate, 0, "none")
+
+            for neighbor in neighbors:
+                adj_list_collection.append_to_adjacency_list(graph_id, neighbor.destination, edge_to_this_node)
 
 if __name__ == "__main__":
     ray.init()
-    adj_list_collection = Adj_List_Collection()
+    adj_list_collection = Graph_collection()
 
     reference_genome = "CAGTCCTAGCTACGCTCTATCCTCTCAGAGGACCGATCGATATACGCGTGAAACTAGTGCACTAGACTCGAACTGA"
     dna_test_data = [{"individualID":0, "dnaData":
@@ -20,28 +90,9 @@ if __name__ == "__main__":
     individuals = {0: {"Name":"John Doe", "Gender":"M"}, 1: {"Name":"Jane Doe", "Gender":"M"}}
 
     build_individuals_graph(individuals, adj_list_collection)
-    print(adj_list_collection.get_node("individuals", 0).data)
-    print(adj_list_collection.get_node("individuals", 1).data)
 
     # build the graph
     build_dna_graph(reference_genome, dna_test_data, adj_list_collection)
-
-    x = adj_list_collection.get_graph("dna")
-
-    print(x)
-
-    print(ray.get(x.get_oid_dictionary.remote()))
-
-    # traverse our new graph to look at
-    # for i in ray.get(ray.get(adj_list_collection.bfs.remote("dna", 0.0))[0]):
-    #     i = ray.get(i)
-    #     print(str(i.key) + "\t" + str(i.data) + "\t" + str(ray.get(adj_list_collection.get_inter_graph_connections.remote("dna", i.key))))
-
-    print(adj_list_collection.get_inter_graph_connections("individuals", 0))
-    print(adj_list_collection.get_inter_graph_connections("individuals", 1))
-
-    print(adj_list_collection.get_node("individuals", 0))
-    print(adj_list_collection.get_node("individuals", 1))
 
     # this will store all reads in their original form
     adj_list_collection.add_graph("reads")
@@ -61,7 +112,7 @@ if __name__ == "__main__":
                         {"contigName": "chr1", "start": 3052271, "end": 3052321, "mapq": 25, "readName": "D3NH4HQ1:95:D0MT5ACXX:2:2107:21352:43370", "sequence": "TCANTCATCTTCCATCCATCCGTCCAACAACCATTTGTTGATCATCTCTC", "qual": "@@<#4AD?ACDCDHGIDA>C?<A;8CBEEBAG1D?BG?GH?@DEHFG@FH", "cigar": "50M", "readPaired": False, "properPair": False, "readMapped": True, "mateMapped": False, "failedVendorQualityChecks": False, "duplicateRead": False, "readNegativeStrand": False, "mateNegativeStrand": False, "primaryAlignment": True, "secondaryAlignment": False, "supplementaryAlignment": False, "mismatchingPositions": "3C44A0T0", "origQual": None, "attributes": "XT:A:U\tXO:i:0\tXM:i:3\tNM:i:3\tXG:i:0\tX1:i:0\tX0:i:1", "recordGroupName": None, "recordGroupSample": None, "mateAlignmentStart": None, "mateAlignmentEnd": None, "mateContigName": None, "inferredInsertSize": None}]
 
     for read in sample_read_data:
-        adj_list_collection.add_node_to_graph("reads", read["readName"], Node(read["readName"], read, "reads"))
+        adj_list_collection.add_node_to_graph("reads", read["readName"], Node(read))
         for index in range(len(read["sequence"])):
             data = read["sequence"][index]
 
@@ -72,7 +123,7 @@ if __name__ == "__main__":
                 neighbors.append(Edge(read["contigName"] + "\t" + str(read["start"] + index + 1), 0, "right"))
                 
             coordinate = read["contigName"] + "\t" + str(read["start"] + index)
-            node = Node(coordinate, data, "reads_genome_graph")
+            node = Node(data)
 
             adj_list_collection.add_node_to_graph("reads_genome_graph", coordinate, node, neighbors)
             adj_list_collection.add_inter_graph_connection("reads_genome_graph", coordinate, "reads", read["readName"])
@@ -101,12 +152,12 @@ if __name__ == "__main__":
                         {"featureName": "18", "contigName": "chr1", "start": 1110963118, "end": 1110964762, "score": 0.0, "attributes": {"itemRgb": "5.0696939910406", "blockCount": "758", "thickStart": "421.056761458099", "thickEnd": "-1"}}]
     try:
         for feature in sampleFeatures:
-            node = Node(feature["featureName"], feature, "features")
+            node = Node(feature)
             adj_list_collection.add_node_to_graph("features", feature["featureName"], node)
             coordinates = []
             for index in range(feature["end"] - feature["start"]):
-                coordinates.append(feature["contigName"] + "\t" + str(read["start"] + index))
-                
+                coordinates.append(feature["contigName"] + "\t" + str(feature["start"] + index))
+
             adj_list_collection.add_multiple_inter_graph_connections("features", feature["featureName"], "reads_genome_graph", coordinates)
 
     except Exception as e:
