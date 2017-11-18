@@ -55,7 +55,9 @@ class Graph_collection:
         
     def add_inter_graph_connection(self, graph_id, key, other_graph_id, other_graph_key):
         """
-        Adds a new connection to another graph.
+        Adds a new connection to another graph. Because all connections
+        are bi-directed, connections are created from the other graph to this
+        one also.
 
         Keyword arguments:
         graph_id -- the unique name of the graph.
@@ -189,7 +191,7 @@ class Graph:
         oid -- the Ray ObjectID for the Node object referenced by key.
         adjacency_list -- the list of connections within this graph.
         """
-        self.oid_dictionary[key] = oid
+        self.oid_dictionary[key] = ray.put(oid)
         if not key in self.adjacency_list:
             self.adjacency_list[key] = ray.put(set(adjacency_list))
         else:
@@ -360,14 +362,19 @@ class Edge:
 
 @ray.remote
 def _add_node_to_graph(graph, graph_id, key, node, adjacency_list):
-    oid = node
+    """
+    Adds a node to the graph provided and associates it with the connections.
+
+    Keyword arguments:
+    graph -- the Graph object to add the node to.
+    graph_id -- the unique identifier of the Graph provided.
+    key -- the unique identifier of the node provided.
+    node -- the Node object to add to the graph.
+    adjacency_list -- the list of connections within this graph.
+    """
     if not key in ray.get(graph.get_oid_dictionary.remote()):
-        if not isinstance(oid, local_scheduler.ObjectID):
-            oid = ray.put(node)
-        graph.insert_node_into_graph.remote(key, oid, adjacency_list)
+        graph.insert_node_into_graph.remote(key, node, adjacency_list)
     else:
-        if not key in ray.get(graph.get_adjacency_list.remote()):
-            raise ValueError("graph: " + str(graph) + "\tgraph_id: " + str(graph_id) + "\tkey: " + str(key) + "\tnode: " + str(node) + "\tadjacency_list: " + str(adjacency_list))
         #TODO: Figure out how to handle this best.
         # raise ValueError("Key: " + str(key) + " already exists in graph: " + graph_id + ".")
         for new_adjacent_node_key in adjacency_list:
@@ -405,7 +412,7 @@ def _reverse_add_to_inter_graph_connections_multi(other_graph, key, graph_id, co
     Keyword arguments:
     other_graph -- the Graph object of the other graph for the connections to
                    be added.
-    key -- the key to connection the other graph keys to.
+    key -- the key to connect the other graph keys to.
     graph_id -- the unique identifier of the graph to connect to.
     collection_of_other_graph_keys -- the keys in other_graph to connect to key.
     """
