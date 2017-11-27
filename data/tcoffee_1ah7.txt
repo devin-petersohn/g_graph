@@ -1,0 +1,20 @@
+>P09598.1  RecName: Full=Phospholipase C; Short=PLC; AltName: Full=Cereolysin A; AltName: Full=Phosphatidylcholine cholinephosphohydrolase; Flags: Precursor
+MKKKVL--------------------------------------------------------------------------
+>P33376.1  RecName: Full=Phospholipase C; Short=PLC; AltName: Full=Cereolysin A; AltName: Full=Phosphatidylcholine cholinephosphohydrolase; Flags: Precursor
+MKKKVL--------------------------------------------------------------------------
+>P33378.1  RecName: Full=Phospholipase C; Short=PLC; AltName: Full=Lecithinase; AltName: Full=Phosphatidylcholine cholinephosphohydrolase; Flags: Precursor
+MKFKKV--------------------------------------------------------------------------
+>P20419.1  RecName: Full=Phospholipase C; Short=PLC; AltName: Full=Cbp; AltName: Full=Phosphatidylcholine cholinephosphohydrolase; Flags: Precursor
+MKALKKTDDNVYFGFETNEGKKFQVDDINNISNYWIRKERLTSISDDWELSNFKLIANGKVIQQQDVNKVFTGNEYYINK
+>Q8VUZ6.1  RecName: Full=Phospholipase C; Short=PLC; AltName: Full=Phosphatidylcholine cholinephosphohydrolase; Flags: Precursor
+MKRKFTKTDDNVYFGFETKDGSKNQTVNTNDITKYWVRKENRTPISDDWELSNIKLISNGKVILQKDINKVFSGNVYDIN
+>Q9RF12.1  RecName: Full=Phospholipase C; Short=PLC; AltName: Full=Alpha-toxin; AltName: Full=Hemolysin; AltName: Full=Lecithinase; AltName: Full=Phosphatidylcholine cholinephosphohydrolase; Flags: Precursor
+MKRKIYIGTDDYMYFGIKTKDGQTGSLKIDDIQNMWIRKSKYTEFGDDYKPANIKVIANGNVVLNKDINEWISGNTYNIK
+>P0C216.1  RecName: Full=Phospholipase C; Short=PLC; AltName: Full=Alpha-toxin; AltName: Full=Hemolysin; AltName: Full=Lecithinase; AltName: Full=Phosphatidylcholine cholinephosphohydrolase; Flags: Precursor
+MKRKICIGTDDYMYFGIKTKDGKTGSLKIDDIQNMWIRKRKYTAFPDAYKPENIKIIANGKVVVDKDINEWISGNTYNIK
+>Q0TV31.1  RecName: Full=Phospholipase C; Short=PLC; AltName: Full=Alpha-toxin; AltName: Full=Hemolysin; AltName: Full=Lecithinase; AltName: Full=Phosphatidylcholine cholinephosphohydrolase; Flags: Precursor
+MKRKICIGTDDYMYFGIKTKDGKTGSLKIDDIQNMWIRKRKYTAFSDAYKPENIKIIANGKVVVDKDINEWISGNTYNIK
+>Q46150.1  RecName: Full=Phospholipase C; Short=PLC; AltName: Full=Gamma-toxin; AltName: Full=Phosphatidylcholine cholinephosphohydrolase; Flags: Precursor
+MKKKFLIGTDDYVYFGIERKDGTANQIKFSDINRMWIRKANFTPVSDDWKVKGIKVIADGSVQYEKQINKWIHGNKYYIN
+>P59026.1  RecName: Full=Phospholipase C; Short=PLC; AltName: Full=Beta toxin; AltName: Full=Phosphatidylcholine cholinephosphohydrolase; Flags: Precursor
+MNKKKIKTDHYIHFGIEAKDGKKNQETLQDIAKTWIRKERGAGVRDDWKPEYVKVIINSDVKYQANINEWFGDNKFYINN

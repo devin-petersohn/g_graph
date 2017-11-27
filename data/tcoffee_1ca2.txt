@@ -1,0 +1,230 @@
+>P00918.2  RecName: Full=Carbonic anhydrase 2; AltName: Full=Carbonate dehydratase II; AltName: Full=Carbonic anhydrase C; Short=CAC; AltName: Full=Carbonic anhydrase II; Short=CA-II
+MS
+>P00919.3  RecName: Full=Carbonic anhydrase 2; AltName: Full=Carbonate dehydratase II; AltName: Full=Carbonic anhydrase II; Short=CA-II
+MS
+>P00920.4  RecName: Full=Carbonic anhydrase 2; AltName: Full=Carbonate dehydratase II; AltName: Full=Carbonic anhydrase II; Short=CA-II
+MS
+>P00921.3  RecName: Full=Carbonic anhydrase 2; AltName: Full=Carbonate dehydratase II; AltName: Full=Carbonic anhydrase II; Short=CA-II
+MS
+>P27139.2  RecName: Full=Carbonic anhydrase 2; AltName: Full=Carbonate dehydratase II; AltName: Full=Carbonic anhydrase II; Short=CA-II
+MS
+>P00922.2  RecName: Full=Carbonic anhydrase 2; AltName: Full=Carbonate dehydratase II; AltName: Full=Carbonic anhydrase II; Short=CA-II
+MS
+>P07630.3  RecName: Full=Carbonic anhydrase 2; AltName: Full=Carbonate dehydratase II; AltName: Full=Carbonic anhydrase II; Short=CA-II
+MS
+>Q8UWA5.3  RecName: Full=Carbonic anhydrase 2; AltName: Full=Carbonate dehydratase II; AltName: Full=Carbonic anhydrase II; Short=CA-II
+MS
+>Q92051.2  RecName: Full=Carbonic anhydrase; AltName: Full=Carbonate dehydratase
+MA
+>P83299.1  RecName: Full=Carbonic anhydrase 1; AltName: Full=Carbonate dehydratase I; AltName: Full=Carbonic anhydrase I; Short=CA-I; AltName: Full=Ice-CA
+AH
+>Q9D6N1.1  RecName: Full=Carbonic anhydrase 13; AltName: Full=Carbonate dehydratase XIII; AltName: Full=Carbonic anhydrase XIII; Short=CA-XIII
+MA
+>P14141.3  RecName: Full=Carbonic anhydrase 3; AltName: Full=Carbonate dehydratase III; AltName: Full=Carbonic anhydrase III; Short=CA-III
+MA
+>P16015.3  RecName: Full=Carbonic anhydrase 3; AltName: Full=Carbonate dehydratase III; AltName: Full=Carbonic anhydrase III; Short=CA-III
+MA
+>Q8N1Q1.1  RecName: Full=Carbonic anhydrase 13; AltName: Full=Carbonate dehydratase XIII; AltName: Full=Carbonic anhydrase XIII; Short=CA-XIII
+MS
+>Q5S1S4.3  RecName: Full=Carbonic anhydrase 3; AltName: Full=Carbonate dehydratase III; AltName: Full=Carbonic anhydrase III; Short=CA-III
+MA
+>P07450.2  RecName: Full=Carbonic anhydrase 3; AltName: Full=Carbonate dehydratase III; AltName: Full=Carbonic anhydrase III; Short=CA-III
+MA
+>Q7M316.3  RecName: Full=Carbonic anhydrase 1; AltName: Full=Carbonate dehydratase I; AltName: Full=Carbonic anhydrase I; Short=CA-I
+MA
+>P07451.3  RecName: Full=Carbonic anhydrase 3; AltName: Full=Carbonate dehydratase III; AltName: Full=Carbonic anhydrase III; Short=CA-III
+MA
+>Q7M317.3  RecName: Full=Carbonic anhydrase 1; AltName: Full=Carbonate dehydratase I; AltName: Full=Carbonic anhydrase I; Short=CA-I
+MA
+>Q8HY33.1  RecName: Full=Carbonic anhydrase 1; AltName: Full=Carbonate dehydratase I; AltName: Full=Carbonic anhydrase I; Short=CA-I
+MA
+>P00915.2  RecName: Full=Carbonic anhydrase 1; AltName: Full=Carbonate dehydratase I; AltName: Full=Carbonic anhydrase B; Short=CAB; AltName: Full=Carbonic anhydrase I; Short=CA-I
+MA
+>Q3SZX4.3  RecName: Full=Carbonic anhydrase 3; AltName: Full=Carbonate dehydratase III; AltName: Full=Carbonic anhydrase III; Short=CA-III
+MA
+>P13634.4  RecName: Full=Carbonic anhydrase 1; AltName: Full=Carbonate dehydratase I; AltName: Full=Carbonic anhydrase I; Short=CA-I
+MA
+>B0BNN3.1  RecName: Full=Carbonic anhydrase 1; AltName: Full=Carbonate dehydratase I; AltName: Full=Carbonic anhydrase I; Short=CA-I
+MA
+>P00916.2  RecName: Full=Carbonic anhydrase 1; AltName: Full=Carbonate dehydratase I; AltName: Full=Carbonic anhydrase I; Short=CA-I
+MA
+>P35217.2  RecName: Full=Carbonic anhydrase 1; AltName: Full=Carbonate dehydratase I; AltName: Full=Carbonic anhydrase I; Short=CA-I
+MA
+>P48282.2  RecName: Full=Carbonic anhydrase 1; AltName: Full=Carbonate dehydratase I; AltName: Full=Carbonic anhydrase I; Short=CA-I
+MA
+>P00917.3  RecName: Full=Carbonic anhydrase 1; AltName: Full=Carbonate dehydratase I; AltName: Full=Carbonic anhydrase I; Short=CA-I
+MA
+>P43166.1  RecName: Full=Carbonic anhydrase 7; AltName: Full=Carbonate dehydratase VII; AltName: Full=Carbonic anhydrase VII; Short=CA-VII
+MT
+>Q9ERQ8.2  RecName: Full=Carbonic anhydrase 7; AltName: Full=Carbonate dehydratase VII; AltName: Full=Carbonic anhydrase VII; Short=CA-VII
+MT
+>Q1LZA1.3  RecName: Full=Carbonic anhydrase 1; AltName: Full=Carbonate dehydratase I; AltName: Full=Carbonic anhydrase I; Short=CA-I
+MA
+>P07452.1  RecName: Full=Carbonic anhydrase 1; AltName: Full=Carbonate dehydratase I; AltName: Full=Carbonic anhydrase I; Short=CA-I
+GN
+>Q9QZA0.2  RecName: Full=Carbonic anhydrase 5B, mitochondrial; AltName: Full=Carbonate dehydratase VB; AltName: Full=Carbonic anhydrase VB; Short=CA-VB; Flags: Precursor
+MA
+>Q66HG6.1  RecName: Full=Carbonic anhydrase 5B, mitochondrial; AltName: Full=Carbonate dehydratase VB; AltName: Full=Carbonic anhydrase VB; Short=CA-VB; Flags: Precursor
+MT
+>Q9Y2D0.1  RecName: Full=Carbonic anhydrase 5B, mitochondrial; AltName: Full=Carbonate dehydratase VB; AltName: Full=Carbonic anhydrase VB; Short=CA-VB; Flags: Precursor
+MV
+>P35218.1  RecName: Full=Carbonic anhydrase 5A, mitochondrial; AltName: Full=Carbonate dehydratase VA; AltName: Full=Carbonic anhydrase VA; Short=CA-VA; Flags: Precursor
+ML
+>P23589.2  RecName: Full=Carbonic anhydrase 5A, mitochondrial; AltName: Full=Carbonate dehydratase VA; Short=CA Y; AltName: Full=Carbonic anhydrase VA; Short=CA-VA; Flags: Precursor
+ML
+>P43165.1  RecName: Full=Carbonic anhydrase 5A, mitochondrial; AltName: Full=Carbonate dehydratase VA; AltName: Full=Carbonic anhydrase VA; Short=CA-VA; Flags: Precursor
+ML
+>P28651.5  RecName: Full=Carbonic anhydrase-related protein; Short=CARP; AltName: Full=Carbonic anhydrase VIII; Short=CA-VIII
+MA
+>P35219.3  RecName: Full=Carbonic anhydrase-related protein; Short=CARP; AltName: Full=Carbonic anhydrase VIII; Short=CA-VIII
+MA
+>Q5PPN4.3  RecName: Full=Carbonic anhydrase-related protein; Short=CARP; AltName: Full=Carbonic anhydrase VIII; Short=CA-VIII
+MA
+>Q8CI85.1  RecName: Full=Carbonic anhydrase 12; AltName: Full=Carbonate dehydratase XII; AltName: Full=Carbonic anhydrase XII; Short=CA-XII; Flags: Precursor
+MP
+>Q9WVT6.1  RecName: Full=Carbonic anhydrase 14; AltName: Full=Carbonate dehydratase XIV; AltName: Full=Carbonic anhydrase XIV; Short=CA-XIV; Flags: Precursor
+ML
+>Q9ULX7.1  RecName: Full=Carbonic anhydrase 14; AltName: Full=Carbonate dehydratase XIV; AltName: Full=Carbonic anhydrase XIV; Short=CA-XIV; Flags: Precursor
+ML
+>Q9MZ30.2  RecName: Full=Carbonic anhydrase 12; AltName: Full=Carbonate dehydratase XII; AltName: Full=Carbonic anhydrase XII; Short=CA-XII; Flags: Precursor
+MP
+>P18915.2  RecName: Full=Carbonic anhydrase 6; AltName: Full=Carbonate dehydratase VI; AltName: Full=Carbonic anhydrase VI; Short=CA-VI; AltName: Full=Salivary carbonic anhydrase; AltName: Full=Secreted carbonic anhydrase; Flags: Precursor
+MI
+>O43570.1  RecName: Full=Carbonic anhydrase 12; AltName: Full=Carbonate dehydratase XII; AltName: Full=Carbonic anhydrase XII; Short=CA-XII; AltName: Full=Tumor antigen HOM-RCC-3.1.3; Flags: Precursor
+MP
+>P23280.3  RecName: Full=Carbonic anhydrase 6; AltName: Full=Carbonate dehydratase VI; AltName: Full=Carbonic anhydrase VI; Short=CA-VI; AltName: Full=Salivary carbonic anhydrase; AltName: Full=Secreted carbonic anhydrase; Flags: Precursor
+MR
+>P18761.3  RecName: Full=Carbonic anhydrase 6; AltName: Full=Carbonate dehydratase VI; AltName: Full=Carbonic anhydrase VI; Short=CA-VI; AltName: Full=Salivary carbonic anhydrase; AltName: Full=Secreted carbonic anhydrase; Flags: Precursor
+MR
+>Q865C0.1  RecName: Full=Carbonic anhydrase 6; AltName: Full=Carbonate dehydratase VI; AltName: Full=Carbonic anhydrase VI; Short=CA-VI; Flags: Precursor
+MR
+>Q27504.1  RecName: Full=Putative carbonic anhydrase 3; AltName: Full=Carbonate dehydratase 3
+MT
+>P48284.1  RecName: Full=Carbonic anhydrase 4; AltName: Full=Carbonate dehydratase IV; AltName: Full=Carbonic anhydrase IV; Short=CA-IV; Flags: Precursor
+MQ
+>P08060.1  RecName: Full=Carbonic anhydrase 6; AltName: Full=Carbonate dehydratase VI; AltName: Full=Carbonic anhydrase VI; Short=CA-VI; AltName: Full=Salivary carbonic anhydrase; AltName: Full=Secreted carbonic anhydrase
+GH
+>Q9NS85.1  RecName: Full=Carbonic anhydrase-related protein 10; AltName: Full=Carbonic anhydrase-related protein X; Short=CA-RP X; Short=CARP X; AltName: Full=Cerebral protein 15 >P61215.1 RecName: Full=Carbonic anhydrase-related protein 10; AltName: Full=Carbonic anhydrase-related protein X; Short=CA-RP X; Short=CARP X >Q9N085.1 RecName: Full=Carbonic anhydrase-related protein 10 >Q5R4U0.1 RecName: Full=Carbonic anhydrase-related protein 10
+ME
+>Q99N23.1  RecName: Full=Carbonic anhydrase 15; AltName: Full=Carbonate dehydratase XV; AltName: Full=Carbonic anhydrase XV; Short=CA-XV; Flags: Precursor
+MW
+>A0JN41.1  RecName: Full=Carbonic anhydrase-related protein 10
+ME
+>Q95203.2  RecName: Full=Carbonic anhydrase-related protein 11; AltName: Full=CA-RP XI; Short=CA-XI; Short=CARP XI; AltName: Full=Carbonic anhydrase-related protein 2; Short=CA-RP II; Short=CARP-2; Flags: Precursor
+MG
+>Q16790.2  RecName: Full=Carbonic anhydrase 9; AltName: Full=Carbonate dehydratase IX; AltName: Full=Carbonic anhydrase IX; Short=CA-IX; Short=CAIX; AltName: Full=Membrane antigen MN; AltName: Full=P54/58N; AltName: Full=Renal cell carcinoma-associated antigen G250; Short=RCC-associated antigen G250; AltName: Full=pMW1; Flags: Precursor
+MA
+>O70354.2  RecName: Full=Carbonic anhydrase-related protein 11; AltName: Full=CA-RP XI; Short=CA-XI; Short=CARP XI; AltName: Full=Carbonic anhydrase-related protein 2; Short=CA-RP II; Short=CARP-2; Flags: Precursor
+MG
+>O75493.2  RecName: Full=Carbonic anhydrase-related protein 11; AltName: Full=CA-RP XI; Short=CA-XI; Short=CARP XI; AltName: Full=Carbonic anhydrase-related protein 2; Short=CA-RP II; Short=CARP-2; Flags: Precursor
+MG
+>Q5R665.1  RecName: Full=Carbonic anhydrase-related protein 11; AltName: Full=CA-RP XI; Short=CA-XI; Short=CARP XI; Flags: Precursor
+MG
+>Q866X7.1  RecName: Full=Carbonic anhydrase-related protein 11; AltName: Full=CA-RP XI; Short=CA-XI; Short=CARP XI; Flags: Precursor
+MG
+>Q10462.3  RecName: Full=Putative carbonic anhydrase 5; AltName: Full=Carbonate dehydratase 5; Flags: Precursor
+MP
+>Q8VHB5.2  RecName: Full=Carbonic anhydrase 9; AltName: Full=Carbonate dehydratase IX; AltName: Full=Carbonic anhydrase IX; Short=CA-IX; Short=CAIX; AltName: Full=Membrane antigen MN homolog; Flags: Precursor
+MA
+>Q866X6.1  RecName: Full=Carbonic anhydrase-related protein 11; AltName: Full=CA-RP XI; Short=CA-XI; Short=CARP XI; Flags: Precursor
+MG
+>P48283.1  RecName: Full=Carbonic anhydrase 4; AltName: Full=Carbonate dehydratase IV; AltName: Full=Carbonic anhydrase IV; Short=CA-IV; Flags: Precursor
+MQ
+>Q9JFA1.1  RecName: Full=Cell surface-binding protein; AltName: Full=Carbonic anhydrase homolog
+MP
+>P94170.1  RecName: Full=Carbonic anhydrase; AltName: Full=Carbonate dehydratase; Flags: Precursor
+MS
+>P33065.1  RecName: Full=Cell surface-binding protein; AltName: Full=Carbonic anhydrase homolog
+MS
+>Q6RZI9.1  RecName: Full=Cell surface-binding protein; AltName: Full=Carbonic anhydrase homolog
+MP
+>P20508.1  RecName: Full=Cell surface-binding protein; AltName: Full=Carbonic anhydrase homolog
+MP
+>Q8V4Y0.1  RecName: Full=Cell surface-binding protein; AltName: Full=Carbonic anhydrase homolog
+MP
+>P04195.1  RecName: Full=Cell surface-binding protein; AltName: Full=Carbonic anhydrase homolog
+MP
+>O57211.1  RecName: Full=Cell surface-binding protein; AltName: Full=Carbonic anhydrase homolog
+MP
+>Q18932.3  RecName: Full=Putative carbonic anhydrase-like protein 2; Flags: Precursor
+MI
+>Q64444.1  RecName: Full=Carbonic anhydrase 4; AltName: Full=Carbonate dehydratase IV; AltName: Full=Carbonic anhydrase IV; Short=CA-IV; Flags: Precursor
+MQ
+>P22748.2  RecName: Full=Carbonic anhydrase 4; AltName: Full=Carbonate dehydratase IV; AltName: Full=Carbonic anhydrase IV; Short=CA-IV; Flags: Precursor
+MR
+>Q95323.1  RecName: Full=Carbonic anhydrase 4; AltName: Full=Carbonate dehydratase IV; AltName: Full=Carbonic anhydrase IV; Short=CA-IV; Flags: Precursor
+MR
+>Q98936.1  RecName: Full=Receptor-type tyrosine-protein phosphatase gamma; Short=Protein-tyrosine phosphatase gamma; Short=R-PTP-gamma; Flags: Precursor
+MR
+>Q05909.1  RecName: Full=Receptor-type tyrosine-protein phosphatase gamma; Short=Protein-tyrosine phosphatase gamma; Short=R-PTP-gamma; Flags: Precursor
+MR
+>Q6DAJ6.1  RecName: Full=Carbonic anhydrase; AltName: Full=Carbonate dehydratase; Flags: Precursor
+MK
+>Q20781.1  RecName: Full=Putative carbonic anhydrase-like protein 1; Flags: Precursor
+MR
+>O52538.1  RecName: Full=Carbonic anhydrase; AltName: Full=Carbonate dehydratase; Flags: Precursor
+MK
+>P23470.4  RecName: Full=Receptor-type tyrosine-protein phosphatase gamma; Short=Protein-tyrosine phosphatase gamma; Short=R-PTP-gamma; Flags: Precursor
+MR
+>P23471.4  RecName: Full=Receptor-type tyrosine-protein phosphatase zeta; Short=R-PTP-zeta; AltName: Full=Protein-tyrosine phosphatase receptor type Z polypeptide 1; AltName: Full=Protein-tyrosine phosphatase receptor type Z polypeptide 2; AltName: Full=R-PTP-zeta-2; Flags: Precursor
+MR
+>B9EKR1.1  RecName: Full=Receptor-type tyrosine-protein phosphatase zeta; Short=R-PTP-zeta; Flags: Precursor
+MR
+>O52535.1  RecName: Full=Carbonic anhydrase; AltName: Full=Carbonate dehydratase; Flags: Precursor
+MK
+>Q50940.2  RecName: Full=Carbonic anhydrase; AltName: Full=Carbonate dehydratase; Flags: Precursor
+MP
+>Q62656.1  RecName: Full=Receptor-type tyrosine-protein phosphatase zeta; Short=R-PTP-zeta; AltName: Full=3F8 chondroitin sulfate proteoglycan; AltName: Full=3H1 keratan sulfate proteoglycan; AltName: Full=Phosphacan; Flags: Precursor
+MR
+>O04846.2  RecName: Full=Alpha carbonic anhydrase 1, chloroplastic; Short=AtaCA1; Short=AtalphaCA1; AltName: Full=Alpha carbonate dehydratase 1; Flags: Precursor
+MK
+>F4IHR4.2  RecName: Full=Alpha carbonic anhydrase 2; Short=AtaCA2; Short=AtalphaCA2; AltName: Full=Alpha carbonate dehydratase 2; Flags: Precursor
+MD
+>Q8L817.1  RecName: Full=Alpha carbonic anhydrase 7; Short=AtaCA7; Short=AtalphaCA7; AltName: Full=Alpha carbonate dehydratase 7; Flags: Precursor
+MV
+>P54212.1  RecName: Full=Carbonic anhydrase; AltName: Full=Carbonate dehydratase
+MG
+>Q9FYE3.1  RecName: Full=Alpha carbonic anhydrase 3; Short=AtaCA3; Short=AtalphaCA3; AltName: Full=Alpha carbonate dehydratase 3; Flags: Precursor
+MK
+>F4JIK2.1  RecName: Full=Alpha carbonic anhydrase 4; Short=AtaCA4; Short=AtalphaCA4; AltName: Full=Alpha carbonate dehydratase 4; Flags: Precursor
+MD
+>Q84UV8.1  RecName: Full=Bifunctional monodehydroascorbate reductase and carbonic anhydrase nectarin-3; AltName: Full=Nectarin-III; Contains: RecName: Full=Nectarin-2; Flags: Precursor
+MR
+>F4HUC4.1  RecName: Full=Alpha carbonic anhydrase 5; Short=AtaCA5; Short=AtalphaCA5; AltName: Full=Alpha carbonate dehydratase 5; Flags: Precursor
+MK
+>Q9FM99.3  RecName: Full=Alpha carbonic anhydrase 8; Short=AtaCA8; Short=AtalphaCA8; AltName: Full=Alpha carbonate dehydratase 8; Flags: Precursor
+MK
+>B3A0P2.1  RecName: Full=Putative carbonic anhydrase 1; AltName: Full=Putative carbonate dehydratase 1; Flags: Precursor
+MK
+>Q9SUB4.1  RecName: Full=Alpha carbonic anhydrase 6; Short=AtaCA6; Short=AtalphaCA6; AltName: Full=Alpha carbonate dehydratase 6; Flags: Precursor
+MD
+>P86856.1  RecName: Full=Nacrein-like protein
+RG
+>P20507.1  RecName: Full=Carbonic anhydrase 1; AltName: Full=Carbonate dehydratase 1; Short=CA1; Contains: RecName: Full=Carbonic anhydrase 1 large chain; Contains: RecName: Full=Carbonic anhydrase 1 small chain; Flags: Precursor
+MA
+>P24258.1  RecName: Full=Carbonic anhydrase 2; AltName: Full=Carbonate dehydratase 2; Short=CA2; Contains: RecName: Full=Carbonic anhydrase 2 large chain; Contains: RecName: Full=Carbonic anhydrase 2 small chain; Flags: Precursor
+MA
+>B8V7P3.1  RecName: Full=Putative carbonic anhydrase; AltName: Full=Carbonate dehydratase
+CL
+>A0ZSF7.1  RecName: Full=Nacrein-like protein C2
+AS
+>A0ZSF5.1  RecName: Full=Nacrein-like protein P2
+AS
+>Q27908.1  RecName: Full=Nacrein; Flags: Precursor
+MY
+>A0ZSF2.1  RecName: Full=Nacrein-like protein F
+AS
+>A0ZSF3.1  RecName: Full=Nacrein-like protein M
+AS
+>Q9NL38.1  RecName: Full=N66 matrix protein; Flags: Precursor
+MW
+>A0ZSF4.1  RecName: Full=Nacrein-like protein P1
+QS
+>A0ZSF6.1  RecName: Full=Nacrein-like protein C1
+QS
+>B3A0Q6.1  RecName: Full=Putative carbonic anhydrase 2
+AY
+>P86277.1  RecName: Full=Bioremediase
+DF
+>Q8WTZ4.2  PUTATIVE PSEUDOGENE: RecName: Full=Putative inactive carbonic anhydrase 5B-like protein; AltName: Full=CA-VB-like protein
+MT

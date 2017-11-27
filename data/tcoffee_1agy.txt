@@ -1,0 +1,80 @@
+>P00590.1  RecName: Full=Cutinase 1; AltName: Full=Cutin hydrolase 1; Flags: Precursor
+MKFF
+>Q99174.1  RecName: Full=Cutinase; AltName: Full=Cutin hydrolase; Flags: Precursor
+MKFF
+>Q96US9.1  RecName: Full=Cutinase 3; AltName: Full=Cutin hydrolase 3; Flags: Precursor
+MKFF
+>Q96UT0.1  RecName: Full=Cutinase 2; AltName: Full=Cutin hydrolase 2; Flags: Precursor
+MKFF
+>P29292.1  RecName: Full=Cutinase; AltName: Full=Cutin hydrolase; Flags: Precursor
+MKFF
+>P41744.1  RecName: Full=Cutinase; AltName: Full=Cutin hydrolase; Flags: Precursor
+MMNL
+>P30272.3  RecName: Full=Cutinase; AltName: Full=Cutin hydrolase; Flags: Precursor
+MQFI
+>P11373.1  RecName: Full=Cutinase 1; AltName: Full=Cutin hydrolase 1; Flags: Precursor
+MKFL
+>Q2U199.1  RecName: Full=Probable cutinase 3; AltName: Full=Cutin hydrolase 3; Flags: Precursor
+MVML
+>B8NCM8.1  RecName: Full=Probable cutinase 1; AltName: Full=Cutin hydrolase 1; Flags: Precursor
+MVML
+>A2R2W3.1  RecName: Full=Probable cutinase 1; AltName: Full=Cutin hydrolase 1; Flags: Precursor
+MAPL
+>Q5AX00.1  RecName: Full=Cutinase 3; AltName: Full=Cutin hydrolase 3; Flags: Precursor
+MRFH
+>P10951.1  RecName: Full=Cutinase; AltName: Full=Cutin hydrolase; Flags: Precursor
+MKFL
+>Q0CRP4.1  RecName: Full=Probable cutinase 5; AltName: Full=Cutin hydrolase 5; Flags: Precursor
+MVAL
+>Q4W9Z4.1  RecName: Full=Probable cutinase 3; AltName: Full=Cutin hydrolase 3; Flags: Precursor >B0YEP5.1 RecName: Full=Probable cutinase 3; AltName: Full=Cutin hydrolase 3; Flags: Precursor
+MSLR
+>P52956.1  RecName: Full=Cutinase 1; AltName: Full=Cutin hydrolase 1; Short=L1; Flags: Precursor >B8MVS3.1 RecName: Full=Probable cutinase 1; AltName: Full=Cutin hydrolase 1; Flags: Precursor
+MHLR
+>A1D9W1.1  RecName: Full=Probable cutinase 3; AltName: Full=Cutin hydrolase 3; Flags: Precursor
+MSLR
+>B6H2E9.1  RecName: Full=Probable cutinase 2; AltName: Full=Cutin hydrolase 2; Flags: Precursor
+MNFK
+>Q0CES4.1  RecName: Full=Probable cutinase 2; AltName: Full=Cutin hydrolase 2; Flags: Precursor
+MNYK
+>Q0CW01.1  RecName: Full=Probable cutinase 4; AltName: Full=Cutin hydrolase 4; Flags: Precursor
+MILP
+>Q0CNE3.2  RecName: Full=Probable cutinase 3; AltName: Full=Cutin hydrolase 3; Flags: Precursor
+MSLR
+>Q5AVY9.2  RecName: Full=Cutinase 2; AltName: Full=Cutin hydrolase 2; Flags: Precursor
+MHFK
+>A1C9G0.1  RecName: Full=Probable cutinase 3; AltName: Full=Cutin hydrolase 3; Flags: Precursor
+MHFR
+>Q4WQV2.1  RecName: Full=Probable cutinase 2; AltName: Full=Cutin hydrolase 2; Flags: Precursor >B0Y537.1 RecName: Full=Probable cutinase 2; AltName: Full=Cutin hydrolase 2; Flags: Precursor
+MNLR
+>A1CVT3.1  RecName: Full=Probable cutinase 2; AltName: Full=Cutin hydrolase 2; Flags: Precursor
+MNLR
+>Q4X1N0.1  RecName: Full=Probable cutinase 1; AltName: Full=Cutin hydrolase 1; Flags: Precursor >B0XRY3.1 RecName: Full=Probable cutinase 1; AltName: Full=Cutin hydrolase 1; Flags: Precursor
+MKFA
+>A1DGN0.1  RecName: Full=Probable cutinase 1; AltName: Full=Cutin hydrolase 1; Flags: Precursor
+MKFA
+>Q5B2C1.1  RecName: Full=Probable cutinase 1; AltName: Full=Cutin hydrolase 1; Flags: Precursor
+MKLQ
+>Q2TZY7.1  RecName: Full=Probable cutinase 2; AltName: Full=Cutin hydrolase 2; Flags: Precursor
+MNLR
+>B8NBB2.2  RecName: Full=Probable cutinase 2; AltName: Full=Cutin hydrolase 2; Flags: Precursor
+MNLR
+>A5ABE6.1  RecName: Full=Probable cutinase 2; AltName: Full=Cutin hydrolase 2; Flags: Precursor
+MKLP
+>Q0CD01.1  RecName: Full=Probable cutinase 1; AltName: Full=Cutin hydrolase 1; Flags: Precursor
+MKLL
+>B6HLS9.1  RecName: Full=Probable cutinase 1; AltName: Full=Cutin hydrolase 1; Flags: Precursor
+MKFS
+>A1CSZ4.1  RecName: Full=Probable cutinase 1; AltName: Full=Cutin hydrolase 1; Flags: Precursor
+MKFA
+>Q8X1P1.1  RecName: Full=Cutinase; AltName: Full=Cutin hydrolase; Flags: Precursor
+MSLT
+>Q8TGB8.1  RecName: Full=Cutinase; AltName: Full=Cutin hydrolase; Flags: Precursor
+MKTS
+>Q9Y7G8.1  RecName: Full=Cutinase; AltName: Full=Cutin hydrolase; Flags: Precursor
+MKVT
+>Q00298.1  RecName: Full=Cutinase; AltName: Full=Cutin hydrolase; Flags: Precursor
+MKTS
+>P63882.1  RecName: Full=Probable cutinase cut2; Flags: Precursor >P9WP40.1 RecName: Full=Probable cutinase cut2; Flags: Precursor >P9WP41.1 RecName: Full=Probable cutinase cut2; Flags: Precursor
+MNDL
+>P63880.1  RecName: Full=Probable cutinase Mb2006c; Flags: Precursor >P9WP42.1 RecName: Full=Probable cutinase MT2037; Flags: Precursor >P9WP43.1 RecName: Full=Probable cutinase Rv1984c; Flags: Precursor
+MTPR

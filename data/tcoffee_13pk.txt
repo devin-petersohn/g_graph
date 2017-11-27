@@ -1,0 +1,1000 @@
+>P07378.1  RecName: Full=Phosphoglycerate kinase, glycosomal; Short=Phosphoglycerate kinase C
+MTLNEKK-------------------------
+>P07377.1  RecName: Full=Phosphoglycerate kinase, cytosolic; AltName: Full=PGK B allele 2; AltName: Full=Phosphoglycerate kinase B
+MSLKERK-------------------------
+>P08893.1  RecName: Full=Phosphoglycerate kinase, cytosolic; AltName: Full=PGK B allele 4; AltName: Full=Phosphoglycerate kinase B
+MSLKERK-------------------------
+>P41760.1  RecName: Full=Phosphoglycerate kinase, cytosolic
+MTLNEKK-------------------------
+>Q27685.1  RecName: Full=Phosphoglycerate kinase, glycosomal; Short=Phosphoglycerate kinase C
+MSLVLKK-------------------------
+>Q27683.1  RecName: Full=Phosphoglycerate kinase, cytosolic; AltName: Full=Phosphoglycerate kinase B; AltName: Full=cPGK
+MSLVLKK-------------------------
+>P50312.1  RecName: Full=Phosphoglycerate kinase, glycosomal; AltName: Full=Phosphoglycerate kinase C; AltName: Full=gPGK
+MSLVLKK-------------------------
+>P08966.1  RecName: Full=Phosphoglycerate kinase, cytosolic; AltName: Full=Phosphoglycerate kinase B
+MSLAPKK-------------------------
+>P08967.1  RecName: Full=Phosphoglycerate kinase, glycosomal; Short=Phosphoglycerate kinase C
+MSLVPKK-------------------------
+>Q27684.1  RecName: Full=Phosphoglycerate kinase, cytosolic; AltName: Full=Phosphoglycerate kinase B
+MSLVLKK-------------------------
+>P08892.1  RecName: Full=Phosphoglycerate kinase A; AltName: Full=PGK A allele 4
+MSTAPNA-------------------------
+>P08891.1  RecName: Full=Phosphoglycerate kinase A; AltName: Full=PGK A allele 2
+MSTAPNA-------------------------
+>P41762.1  RecName: Full=Phosphoglycerate kinase, glycosomal
+MSHVTGV-------------------------
+>B4UEJ2.1  RecName: Full=Phosphoglycerate kinase
+MALRTID-------------------------
+>A0PYP1.1  RecName: Full=Phosphoglycerate kinase
+MKLNKKT-------------------------
+>Q2II25.1  RecName: Full=Phosphoglycerate kinase
+MALRTID-------------------------
+>B8JBD5.1  RecName: Full=Phosphoglycerate kinase
+MALRTID-------------------------
+>Q898R3.1  RecName: Full=Phosphoglycerate kinase
+MVYVAFN-------------------------
+>A7FQN7.1  RecName: Full=Phosphoglycerate kinase >A5HYC0.1 RecName: Full=Phosphoglycerate kinase
+MNYNKKS-------------------------
+>A7G9Y0.1  RecName: Full=Phosphoglycerate kinase
+MNYNKKS-------------------------
+>B1IDB6.1  RecName: Full=Phosphoglycerate kinase
+MNYNKKS-------------------------
+>C3KYR4.1  RecName: Full=Phosphoglycerate kinase
+MNYNKKS-------------------------
+>O52632.1  RecName: Full=Phosphoglycerate kinase
+MKFNKKT-------------------------
+>Q0STD5.1  RecName: Full=Phosphoglycerate kinase
+MNFNKKT-------------------------
+>Q8XKU0.1  RecName: Full=Phosphoglycerate kinase >Q0TQY7.1 RecName: Full=Phosphoglycerate kinase
+MNFNKKT-------------------------
+>C1FQW3.1  RecName: Full=Phosphoglycerate kinase
+MNYNKKS-------------------------
+>B2TPX4.1  RecName: Full=Phosphoglycerate kinase
+MNFNKKT-------------------------
+>B2UY23.1  RecName: Full=Phosphoglycerate kinase
+MNFNKKT-------------------------
+>A7HCN7.1  RecName: Full=Phosphoglycerate kinase
+MALKTID-------------------------
+>B3QWD9.1  RecName: Full=Phosphoglycerate kinase
+MKKKTVD-------------------------
+>P25055.1  RecName: Full=Phosphoglycerate kinase, glycosomal; Short=Phosphoglycerate kinase A
+MLLSTQS-------------------------
+>Q7NI70.1  RecName: Full=Phosphoglycerate kinase
+MAKKTVE-------------------------
+>Q67SW6.1  RecName: Full=Phosphoglycerate kinase
+MALMTVR-------------------------
+>B1KTJ5.1  RecName: Full=Phosphoglycerate kinase
+MNYNKKS-------------------------
+>A5N2N8.1  RecName: Full=Phosphoglycerate kinase >B9E6B4.1 RecName: Full=Phosphoglycerate kinase
+MVFNKKT-------------------------
+>P62421.1  RecName: Full=Phosphoglycerate kinase
+MIKTVKD-------------------------
+>Q181T8.1  RecName: Full=Phosphoglycerate kinase
+MSMLNKK-------------------------
+>Q31P73.1  RecName: Full=Phosphoglycerate kinase
+MSKRTLA-------------------------
+>C0Z6L6.1  RecName: Full=Phosphoglycerate kinase
+MNKKSIR-------------------------
+>Q8R965.1  RecName: Full=Phosphoglycerate kinase
+MKKKTVR-------------------------
+>B3EQD1.1  RecName: Full=Phosphoglycerate kinase
+MEKKSLY-------------------------
+>Q5N4Z6.1  RecName: Full=Phosphoglycerate kinase
+MSKRTLA-------------------------
+>Q833I9.1  RecName: Full=Phosphoglycerate kinase
+MAKKTIK-------------------------
+>A6LR05.1  RecName: Full=Phosphoglycerate kinase
+MNFNKKT-------------------------
+>Q3AFD1.1  RecName: Full=Phosphoglycerate kinase
+MNKKSIR-------------------------
+>Q03AK6.1  RecName: Full=Phosphoglycerate kinase >B3WCW5.1 RecName: Full=Phosphoglycerate kinase
+MAKLIVS-------------------------
+>B8E2D3.1  RecName: Full=Phosphoglycerate kinase
+MAKKTIL-------------------------
+>A5IJ98.1  RecName: Full=Phosphoglycerate kinase
+MEKMTIK-------------------------
+>Q01Y83.1  RecName: Full=Phosphoglycerate kinase
+MSYLSIR-------------------------
+>P12783.1  RecName: Full=Phosphoglycerate kinase, cytosolic
+MATKRSV-------------------------
+>Q8KAE1.1  RecName: Full=Phosphoglycerate kinase
+MQKKTLS-------------------------
+>B1L8B8.1  RecName: Full=Phosphoglycerate kinase
+MEKMTIR-------------------------
+>Q8DGP7.1  RecName: Full=Phosphoglycerate kinase
+MSKKSVA-------------------------
+>B2KC44.1  RecName: Full=Phosphoglycerate kinase
+MQLENIK-------------------------
+>B3QLX7.1  RecName: Full=Phosphoglycerate kinase
+MQKKTLS-------------------------
+>C5D7M4.1  RecName: Full=Phosphoglycerate kinase
+MNKKTVR-------------------------
+>B5YE95.1  RecName: Full=Phosphoglycerate kinase
+MAKKTIL-------------------------
+>B1YLE1.1  RecName: Full=Phosphoglycerate kinase
+MNKKSIR-------------------------
+>B4S6S2.1  RecName: Full=Phosphoglycerate kinase
+MQKKTLS-------------------------
+>B7K9Q5.1  RecName: Full=Phosphoglycerate kinase
+MPKKTIA-------------------------
+>Q8GIZ5.1  RecName: Full=Phosphoglycerate kinase
+MAKLIVS-------------------------
+>P62413.1  RecName: Full=Phosphoglycerate kinase
+MAKLIVS-------------------------
+>Q1INK7.1  RecName: Full=Phosphoglycerate kinase
+MSKLSIK-------------------------
+>Q2JXF0.1  RecName: Full=Phosphoglycerate kinase
+MAKQTLG-------------------------
+>A5GW73.1  RecName: Full=Phosphoglycerate kinase
+MAKRSLS-------------------------
+>Q042F2.1  RecName: Full=Phosphoglycerate kinase
+MAKLIVS-------------------------
+>A8YUE3.1  RecName: Full=Phosphoglycerate kinase
+MAKLIVD-------------------------
+>Q03SL7.1  RecName: Full=Phosphoglycerate kinase
+MAKLTVS-------------------------
+>A7GUS0.1  RecName: Full=Phosphoglycerate kinase
+MNKKSIR-------------------------
+>Q42962.1  RecName: Full=Phosphoglycerate kinase, cytosolic
+MAVKKSV-------------------------
+>P36204.4  RecName: Full=Bifunctional PGK/TIM; Includes: RecName: Full=Phosphoglycerate kinase; Includes: RecName: Full=Triosephosphate isomerase; Short=TIM; AltName: Full=Triose-phosphate isomerase
+MEKMTIR-------------------------
+>Q2JKX6.1  RecName: Full=Phosphoglycerate kinase
+MAKQTLG-------------------------
+>A1QYK6.1  RecName: Full=Phosphoglycerate kinase
+MSIKTIK-------------------------
+>Q1WTB5.1  RecName: Full=Phosphoglycerate kinase
+MAKLIVS-------------------------
+>Q0I6M5.1  RecName: Full=Phosphoglycerate kinase
+MAKRSLA-------------------------
+>B8G4H3.1  RecName: Full=Phosphoglycerate kinase
+MNKKTIR-------------------------
+>B7HW55.1  RecName: Full=Phosphoglycerate kinase
+MNKKSIR-------------------------
+>Q6HBF0.1  RecName: Full=Phosphoglycerate kinase
+MNKKSIR-------------------------
+>Q7V461.1  RecName: Full=Phosphoglycerate kinase
+MAKRSLS-------------------------
+>Q81X75.1  RecName: Full=Phosphoglycerate kinase >C3P0A6.1 RecName: Full=Phosphoglycerate kinase >C3LDI3.1 RecName: Full=Phosphoglycerate kinase
+MNKKSIR-------------------------
+>B9J4M7.1  RecName: Full=Phosphoglycerate kinase
+MNKKSIR-------------------------
+>A1BJZ1.1  RecName: Full=Phosphoglycerate kinase
+MQKKTLS-------------------------
+>B7JVE4.1  RecName: Full=Phosphoglycerate kinase
+MTKKSIV-------------------------
+>A0RKS6.1  RecName: Full=Phosphoglycerate kinase >B7JFG6.1 RecName: Full=Phosphoglycerate kinase >C1EZA3.1 RecName: Full=Phosphoglycerate kinase
+MNKKSIR-------------------------
+>P62409.1  RecName: Full=Phosphoglycerate kinase
+MNKKSIR-------------------------
+>Q3AGU1.1  RecName: Full=Phosphoglycerate kinase
+MAKRSLA-------------------------
+>O83549.1  RecName: Full=Phosphoglycerate kinase >B2S3D0.1 RecName: Full=Phosphoglycerate kinase
+MMLRTCK-------------------------
+>A4SH15.1  RecName: Full=Phosphoglycerate kinase
+MQKKTLS-------------------------
+>B7IDG7.1  RecName: Full=Phosphoglycerate kinase
+MEKLTIR-------------------------
+>Q631L9.1  RecName: Full=Phosphoglycerate kinase
+MNKKSIR-------------------------
+>B5RQN5.1  RecName: Full=Phosphoglycerate kinase
+MSIRTIK-------------------------
+>A0LJZ1.1  RecName: Full=Phosphoglycerate kinase
+MKTVGEL-------------------------
+>B8HXQ5.1  RecName: Full=Phosphoglycerate kinase
+MSKKTVA-------------------------
+>B7IP23.1  RecName: Full=Phosphoglycerate kinase
+MNKKSIR-------------------------
+>P29409.2  RecName: Full=Phosphoglycerate kinase, chloroplastic; Flags: Precursor
+GASFSLH-------------------------
+>B4SHF6.1  RecName: Full=Phosphoglycerate kinase
+MQKKSLS-------------------------
+>A2CDG7.1  RecName: Full=Phosphoglycerate kinase
+MAKRSLS-------------------------
+>B5RKV5.1  RecName: Full=Phosphoglycerate kinase
+MSIRTIK-------------------------
+>B2S1P1.1  RecName: Full=Phosphoglycerate kinase
+MSIKTIK-------------------------
+>Q5FL50.1  RecName: Full=Phosphoglycerate kinase
+MAKLIIS-------------------------
+>B7GL27.1  RecName: Full=Phosphoglycerate kinase
+MNKKTVR-------------------------
+>B7HED5.1  RecName: Full=Phosphoglycerate kinase
+MNKKSIR-------------------------
+>Q5KVE4.1  RecName: Full=Phosphoglycerate kinase
+MNKKTIR-------------------------
+>A9VQ51.1  RecName: Full=Phosphoglycerate kinase
+MNKKSIR-------------------------
+>P50318.3  RecName: Full=Phosphoglycerate kinase 2, chloroplastic; Flags: Precursor
+MASTAAT-------------------------
+>Q9CIW1.1  RecName: Full=Phosphoglycerate kinase
+MAKLTVK-------------------------
+>O32756.1  RecName: Full=Phosphoglycerate kinase >Q04BH1.1 RecName: Full=Phosphoglycerate kinase >Q1GB26.1 RecName: Full=Phosphoglycerate kinase
+MAKLIVS-------------------------
+>Q3AVX6.1  RecName: Full=Phosphoglycerate kinase
+MAKRSLA-------------------------
+>B0CD95.1  RecName: Full=Phosphoglycerate kinase
+MSKKTIA-------------------------
+>Q8RFN7.1  RecName: Full=Phosphoglycerate kinase
+MKKIITD-------------------------
+>C4L5H7.1  RecName: Full=Phosphoglycerate kinase
+MNKQSIR-------------------------
+>A2BUH2.1  RecName: Full=Phosphoglycerate kinase
+MSKLSLS-------------------------
+>Q7U3V0.1  RecName: Full=Phosphoglycerate kinase
+MAKRSLA-------------------------
+>Q032K6.1  RecName: Full=Phosphoglycerate kinase
+MAKLTVK-------------------------
+>Q9SAJ4.1  RecName: Full=Phosphoglycerate kinase 3, cytosolic
+MATKRSV-------------------------
+>A2RHX1.1  RecName: Full=Phosphoglycerate kinase
+MAKLTVK-------------------------
+>A5GPB2.1  RecName: Full=Phosphoglycerate kinase
+MAKRSLA-------------------------
+>P11977.2  RecName: Full=Phosphoglycerate kinase
+MSLTSKL-------------------------
+>Q3ANU2.1  RecName: Full=Phosphoglycerate kinase
+MEKKTLS-------------------------
+>B0S1H0.1  RecName: Full=Phosphoglycerate kinase
+MNKKTLK-------------------------
+>Q31CY6.1  RecName: Full=Phosphoglycerate kinase
+MSKLSLS-------------------------
+>P74421.2  RecName: Full=Phosphoglycerate kinase
+MLSKQSI-------------------------
+>B9EAG8.1  RecName: Full=Phosphoglycerate kinase
+MVKKVVS-------------------------
+>Q9LD57.1  RecName: Full=Phosphoglycerate kinase 1, chloroplastic; Flags: Precursor
+MASAAAS-------------------------
+>Q7VDZ4.1  RecName: Full=Phosphoglycerate kinase
+MAKRSLS-------------------------
+>A5G382.1  RecName: Full=Phosphoglycerate kinase
+MSIRYID-------------------------
+>Q928I0.1  RecName: Full=Phosphoglycerate kinase
+MAKKVVT-------------------------
+>Q8ENP3.1  RecName: Full=Phosphoglycerate kinase
+MNKKTIN-------------------------
+>B0JT86.1  RecName: Full=Phosphoglycerate kinase
+MPKKTVA-------------------------
+>B9DJJ6.1  RecName: Full=Phosphoglycerate kinase
+MAKKHVS-------------------------
+>C1F1M9.1  RecName: Full=Phosphoglycerate kinase
+MSKLSIR-------------------------
+>A5UTB6.1  RecName: Full=Phosphoglycerate kinase
+MAKKTIR-------------------------
+>Q39U98.1  RecName: Full=Phosphoglycerate kinase
+MAIRYID-------------------------
+>B8DD98.1  RecName: Full=Phosphoglycerate kinase
+MAKKVVT-------------------------
+>Q42961.1  RecName: Full=Phosphoglycerate kinase, chloroplastic; Flags: Precursor
+MASATAS-------------------------
+>Q7V390.1  RecName: Full=Phosphoglycerate kinase
+MSKLSLS-------------------------
+>Q8Y4I2.1  RecName: Full=Phosphoglycerate kinase
+MAKKVVT-------------------------
+>Q88YH5.1  RecName: Full=Phosphoglycerate kinase
+MAKLIVS-------------------------
+>P29405.1  RecName: Full=Phosphoglycerate kinase 1
+MSLSNKL-------------------------
+>Q9K714.1  RecName: Full=Phosphoglycerate kinase
+MNKQSVR-------------------------
+>P29407.1  RecName: Full=Phosphoglycerate kinase
+MSLTNKL-------------------------
+>Q9SBN4.1  RecName: Full=Phosphoglycerate kinase, chloroplastic; Flags: Precursor
+MALSMKM-------------------------
+>Q71WW8.1  RecName: Full=Phosphoglycerate kinase >C1KY97.1 RecName: Full=Phosphoglycerate kinase
+MAKKVVT-------------------------
+>A7NKY6.1  RecName: Full=Phosphoglycerate kinase
+MAKKTIR-------------------------
+>P24590.2  RecName: Full=Phosphoglycerate kinase
+MSLSNKL-------------------------
+>A8FHJ3.1  RecName: Full=Phosphoglycerate kinase
+MNKKSVK-------------------------
+>P91427.1  RecName: Full=Probable phosphoglycerate kinase
+MSSLNKL-------------------------
+>A8G2K1.1  RecName: Full=Phosphoglycerate kinase
+MSKLSLS-------------------------
+>A0ALE2.1  RecName: Full=Phosphoglycerate kinase
+MAKKVVT-------------------------
+>P38667.2  RecName: Full=Phosphoglycerate kinase
+MSLSNKL-------------------------
+>A2BNZ0.1  RecName: Full=Phosphoglycerate kinase
+MSKLSLS-------------------------
+>Q4L4K4.1  RecName: Full=Phosphoglycerate kinase
+MAKKIVS-------------------------
+>P29406.1  RecName: Full=Phosphoglycerate kinase 2
+MSLSNKL-------------------------
+>A5CYN8.1  RecName: Full=Phosphoglycerate kinase
+MAKKTVR-------------------------
+>Q2RLU1.1  RecName: Full=Phosphoglycerate kinase
+MAKLTLK-------------------------
+>A6LMG3.1  RecName: Full=Phosphoglycerate kinase
+MEKLTIR-------------------------
+>P24269.1  RecName: Full=Phosphoglycerate kinase
+MNKKTLK-------------------------
+>Q10Z46.1  RecName: Full=Phosphoglycerate kinase
+MTKKTVA-------------------------
+>Q03GW7.1  RecName: Full=Phosphoglycerate kinase
+MAKLTVS-------------------------
+>A9BDF8.1  RecName: Full=Phosphoglycerate kinase
+MAKRSLS-------------------------
+>P18912.2  RecName: Full=Phosphoglycerate kinase
+MNKKTIR-------------------------
+>P14828.2  RecName: Full=Phosphoglycerate kinase
+MSLSSKL-------------------------
+>P41759.1  RecName: Full=Phosphoglycerate kinase
+MGLSKLS-------------------------
+>B3E9Q7.1  RecName: Full=Phosphoglycerate kinase
+MPIRYID-------------------------
+>Q3MF40.1  RecName: Full=Phosphoglycerate kinase
+MSKKTVA-------------------------
+>Q5WDK6.1  RecName: Full=Phosphoglycerate kinase
+MNKKTLY-------------------------
+>Q46HH8.1  RecName: Full=Phosphoglycerate kinase
+MSKRSLS-------------------------
+>Q8YPR1.1  RecName: Full=Phosphoglycerate kinase
+MSKKTVA-------------------------
+>Q04G42.1  RecName: Full=Phosphoglycerate kinase
+MTKLTVK-------------------------
+>A2C025.1  RecName: Full=Phosphoglycerate kinase
+MSKRSLS-------------------------
+>Q65EM9.1  RecName: Full=Phosphoglycerate kinase
+MNKKSVK-------------------------
+>A3PAR3.1  RecName: Full=Phosphoglycerate kinase
+MSKLSLS-------------------------
+>P14228.1  RecName: Full=Phosphoglycerate kinase
+MSLSNKL-------------------------
+>P40924.3  RecName: Full=Phosphoglycerate kinase
+MNKKTLK-------------------------
+>B4U0W3.1  RecName: Full=Phosphoglycerate kinase
+MAKLTVK-------------------------
+>C0M940.1  RecName: Full=Phosphoglycerate kinase
+MAKLTVK-------------------------
+>Q9Z7M5.1  RecName: Full=Phosphoglycerate kinase
+MDKLTVQ-------------------------
+>C0MF22.1  RecName: Full=Phosphoglycerate kinase
+MAKLTVK-------------------------
+>O60101.1  RecName: Full=Phosphoglycerate kinase
+MSLSTKL-------------------------
+>P41758.1  RecName: Full=Phosphoglycerate kinase, chloroplastic; Flags: Precursor
+MALSMKM-------------------------
+>P33161.1  RecName: Full=Phosphoglycerate kinase
+MSLSNKL-------------------------
+>B2ITU1.1  RecName: Full=Phosphoglycerate kinase
+MSKKSLA-------------------------
+>A9WKE4.1  RecName: Full=Phosphoglycerate kinase >B9LM50.1 RecName: Full=Phosphoglycerate kinase
+MNKKTIR-------------------------
+>P12782.1  RecName: Full=Phosphoglycerate kinase, chloroplastic; Flags: Precursor
+MASTAAP-------------------------
+>B2G616.1  RecName: Full=Phosphoglycerate kinase
+MAKLTVE-------------------------
+>A4VYY1.1  RecName: Full=Phosphoglycerate kinase >A4VSN8.1 RecName: Full=Phosphoglycerate kinase
+MAKLTVK-------------------------
+>P51903.2  RecName: Full=Phosphoglycerate kinase
+MSLSNKL-------------------------
+>Q03IS8.1  RecName: Full=Phosphoglycerate kinase
+MAKLTVK-------------------------
+>Q49W00.1  RecName: Full=Phosphoglycerate kinase
+MAKKIVT-------------------------
+>Q8VVB6.1  RecName: Full=Phosphoglycerate kinase
+MAKLTVK-------------------------
+>O94123.1  RecName: Full=Phosphoglycerate kinase
+MSLSNKL-------------------------
+>Q5LY23.1  RecName: Full=Phosphoglycerate kinase
+MAKLTVK-------------------------
+>A1APN7.1  RecName: Full=Phosphoglycerate kinase
+MPIRYID-------------------------
+>Q8E3F0.1  RecName: Full=Phosphoglycerate kinase
+MAKLTVK-------------------------
+>A8AUR9.1  RecName: Full=Phosphoglycerate kinase
+MAKLTVK-------------------------
+>P41756.1  RecName: Full=Phosphoglycerate kinase
+MSLSNKL-------------------------
+>A7HL11.1  RecName: Full=Phosphoglycerate kinase
+MEKLTIR-------------------------
+>B5XIF1.1  RecName: Full=Phosphoglycerate kinase
+MAKLTVK-------------------------
+>Q8DXT0.1  RecName: Full=Phosphoglycerate kinase >Q3JZB8.1 RecName: Full=Phosphoglycerate kinase
+MAKLTVK-------------------------
+>C6E770.1  RecName: Full=Phosphoglycerate kinase
+MSIRYID-------------------------
+>O66519.1  RecName: Full=Phosphoglycerate kinase
+MLRKKTL-------------------------
+>Q5L748.1  RecName: Full=Phosphoglycerate kinase
+MDRLTVR-------------------------
+>P68897.2  RecName: Full=Phosphoglycerate kinase >Q5XA18.3 RecName: Full=Phosphoglycerate kinase >Q1J9Y4.1 RecName: Full=Phosphoglycerate kinase >Q1JK32.1 RecName: Full=Phosphoglycerate kinase
+MAKLTVK-------------------------
+>B9DVS0.1  RecName: Full=Phosphoglycerate kinase
+MAKMTVK-------------------------
+>A9NHH8.1  RecName: Full=Phosphoglycerate kinase
+MAKKTIR-------------------------
+>Q6BLA0.1  RecName: Full=Phosphoglycerate kinase
+MSLSNKL-------------------------
+>Q97S89.1  RecName: Full=Phosphoglycerate kinase
+MAKLTVK-------------------------
+>Q48RF9.1  RecName: Full=Phosphoglycerate kinase >Q1J4X9.1 RecName: Full=Phosphoglycerate kinase >P0DD04.1 RecName: Full=Phosphoglycerate kinase >P0DD05.1 RecName: Full=Phosphoglycerate kinase
+MAKLTVK-------------------------
+>B2GAL8.1  RecName: Full=Phosphoglycerate kinase
+MAKLTVE-------------------------
+>C1C5M3.1  RecName: Full=Phosphoglycerate kinase
+MAKLTVK-------------------------
+>A2RCM1.1  RecName: Full=Phosphoglycerate kinase
+MAKLTVK-------------------------
+>Q38Y20.1  RecName: Full=Phosphoglycerate kinase
+MAKQTVA-------------------------
+>B5EF40.1  RecName: Full=Phosphoglycerate kinase
+MSIRYID-------------------------
+>Q8DQX8.1  RecName: Full=Phosphoglycerate kinase >Q04LZ5.1 RecName: Full=Phosphoglycerate kinase
+MAKLTVK-------------------------
+>B1IA36.1  RecName: Full=Phosphoglycerate kinase >B2IMA2.1 RecName: Full=Phosphoglycerate kinase >B8ZLX5.1 RecName: Full=Phosphoglycerate kinase >C1CCP3.1 RecName: Full=Phosphoglycerate kinase >C1CIZ1.1 RecName: Full=Phosphoglycerate kinase >C1CQ04.1 RecName: Full=Phosphoglycerate kinase
+MAKLTVK-------------------------
+>B5E1U9.1  RecName: Full=Phosphoglycerate kinase
+MAKLTVK-------------------------
+>Q824S8.1  RecName: Full=Phosphoglycerate kinase
+MDRLTVR-------------------------
+>Q662V8.1  RecName: Full=Phosphoglycerate kinase
+MSIKTVK-------------------------
+>Q8DVV2.1  RecName: Full=Phosphoglycerate kinase
+MAKLTVK-------------------------
+>Q8CTD6.1  RecName: Full=Phosphoglycerate kinase >Q5HQV3.1 RecName: Full=Phosphoglycerate kinase
+MAKKIVS-------------------------
+>Q7ZA46.1  RecName: Full=Phosphoglycerate kinase
+MSLSNKL-------------------------
+>P09041.4  RecName: Full=Phosphoglycerate kinase 2; AltName: Full=Phosphoglycerate kinase, testis specific
+MALSAKL-------------------------
+>P29408.2  RecName: Full=Phosphoglycerate kinase 1
+MSLSKKL-------------------------
+>Q8NZG3.2  RecName: Full=Phosphoglycerate kinase
+MAKLTVK-------------------------
+>Q6GB57.1  RecName: Full=Phosphoglycerate kinase >Q6GIL7.1 RecName: Full=Phosphoglycerate kinase >P68819.1 RecName: Full=Phosphoglycerate kinase >P68820.1 RecName: Full=Phosphoglycerate kinase >P68821.1 RecName: Full=Phosphoglycerate kinase >P99135.1 RecName: Full=Phosphoglycerate kinase >Q5HHP4.1 RecName: Full=Phosphoglycerate kinase >Q2G031.1 RecName: Full=Phosphoglycerate kinase >Q2FIM0.1 RecName: Full=Phosphoglycerate kinase >A7WZS6.1 RecName: Full=Phosphoglycerate kinase >A6QF82.1 RecName: Full=Phosphoglycerate kinase >A6TZQ2.1 RecName: Full=Phosphoglycerate kinase >A5IQX7.1 RecName: Full=Phosphoglycerate kinase >A8Z1A1.1 RecName: Full=Phosphoglycerate kinase
+MAKKIVS-------------------------
+>Q60HD8.3  RecName: Full=Phosphoglycerate kinase 1 >Q5NVB5.4 RecName: Full=Phosphoglycerate kinase 1
+MSLSNKL-------------------------
+>P00558.3  RecName: Full=Phosphoglycerate kinase 1; AltName: Full=Cell migration-inducing gene 10 protein; AltName: Full=Primer recognition protein 2; Short=PRP 2 >A5A6K4.1 RecName: Full=Phosphoglycerate kinase 1
+MSLSNKL-------------------------
+>Q2YSF1.1  RecName: Full=Phosphoglycerate kinase
+MAKKIVS-------------------------
+>B2UKW8.1  RecName: Full=Phosphoglycerate kinase
+MAKLTVR-------------------------
+>B4U8G5.1  RecName: Full=Phosphoglycerate kinase
+MPNKKTI-------------------------
+>P50314.1  RecName: Full=Phosphoglycerate kinase
+MIAFRTL-------------------------
+>Q6FKY1.1  RecName: Full=Phosphoglycerate kinase
+MSLSSKL-------------------------
+>Q0SPA9.1  RecName: Full=Phosphoglycerate kinase
+MSIKTVK-------------------------
+>Q3T0P6.3  RecName: Full=Phosphoglycerate kinase 1
+MSLSNKL-------------------------
+>P09411.4  RecName: Full=Phosphoglycerate kinase 1
+MSLSNKL-------------------------
+>Q8MIF7.3  RecName: Full=Phosphoglycerate kinase 2; AltName: Full=Phosphoglycerate kinase, testis specific
+MSLSKKL-------------------------
+>A3CKQ4.1  RecName: Full=Phosphoglycerate kinase
+MAKLTVK-------------------------
+>Q3B116.1  RecName: Full=Phosphoglycerate kinase
+MQKKTLS-------------------------
+>Q03UX8.1  RecName: Full=Phosphoglycerate kinase
+MAKLTVS-------------------------
+>Q7SIB7.3  RecName: Full=Phosphoglycerate kinase 1
+MSLSNKL-------------------------
+>Q1AUH7.1  RecName: Full=Phosphoglycerate kinase
+MDKRSVR-------------------------
+>P00560.2  RecName: Full=Phosphoglycerate kinase
+MSLSSKL-------------------------
+>P16617.2  RecName: Full=Phosphoglycerate kinase 1
+MSLSNKL-------------------------
+>B0SB21.1  RecName: Full=Phosphoglycerate kinase >B0SSU3.1 RecName: Full=Phosphoglycerate kinase
+MKLPLLE-------------------------
+>B1XNQ1.1  RecName: Full=Phosphoglycerate kinase
+MAKKSVA-------------------------
+>O74233.1  RecName: Full=Phosphoglycerate kinase
+MSLSNKL-------------------------
+>Q1IZA3.1  RecName: Full=Phosphoglycerate kinase
+MQTLDQL-------------------------
+>P50310.2  RecName: Full=Phosphoglycerate kinase 1
+MSLSNKL-------------------------
+>B7J0Z2.1  RecName: Full=Phosphoglycerate kinase
+MSIKTVK-------------------------
+>P46273.1  RecName: Full=Phosphoglycerate kinase
+MSLSNKL-------------------------
+>A7GWT1.1  RecName: Full=Phosphoglycerate kinase
+MSDILSI-------------------------
+>Q6AS45.1  RecName: Full=Phosphoglycerate kinase
+MKSLREL-------------------------
+>Q59181.2  RecName: Full=Phosphoglycerate kinase
+MSIKTVK-------------------------
+>A7ZEZ5.1  RecName: Full=Phosphoglycerate kinase
+MSDILSI-------------------------
+>Q606J5.1  RecName: Full=Phosphoglycerate kinase
+MAFKRMT-------------------------
+>Q252S3.1  RecName: Full=Phosphoglycerate kinase
+MDRLTVR-------------------------
+>Q4R3K4.1  RecName: Full=Phosphoglycerate kinase 2
+MSLSKKL-------------------------
+>Q6RI85.3  RecName: Full=Phosphoglycerate kinase 2; AltName: Full=Phosphoglycerate kinase, testis specific
+MSLSKKL-------------------------
+>A9B312.1  RecName: Full=Phosphoglycerate kinase
+MNKQTIR-------------------------
+>P27362.1  RecName: Full=Phosphoglycerate kinase
+MLGNKLS-------------------------
+>Q9GPM4.2  RecName: Full=Phosphoglycerate kinase
+MSSNKIG-------------------------
+>P41757.1  RecName: Full=Phosphoglycerate kinase
+MSLSNKL-------------------------
+>A1A1N3.1  RecName: Full=Phosphoglycerate kinase
+MKTLKDL-------------------------
+>A8F5X9.1  RecName: Full=Phosphoglycerate kinase
+MKKLTIK-------------------------
+>B1MW69.1  RecName: Full=Phosphoglycerate kinase
+MAKLTVS-------------------------
+>B3EIM1.1  RecName: Full=Phosphoglycerate kinase
+MQKKTLS-------------------------
+>B9L8C3.1  RecName: Full=Phosphoglycerate kinase
+MKINSPK-------------------------
+>Q7VJB6.1  RecName: Full=Phosphoglycerate kinase
+MKETGIE-------------------------
+>A0RQT4.1  RecName: Full=Phosphoglycerate kinase
+MSEIISI-------------------------
+>P09188.1  RecName: Full=Phosphoglycerate kinase
+MSLSNKL-------------------------
+>A8ZUS4.1  RecName: Full=Phosphoglycerate kinase
+MKSLKTI-------------------------
+>P07205.3  RecName: Full=Phosphoglycerate kinase 2; AltName: Full=Phosphoglycerate kinase, testis specific
+MSLSKKL-------------------------
+>Q757Q0.3  RecName: Full=Phosphoglycerate kinase
+MSLSSKL-------------------------
+>P00559.2  RecName: Full=Phosphoglycerate kinase 1
+MSLSNKL-------------------------
+>Q01604.2  RecName: Full=Phosphoglycerate kinase
+MAFNKLS-------------------------
+>B7GQU7.1  RecName: Full=Phosphoglycerate kinase
+MKTLKDL-------------------------
+>A7IJW3.1  RecName: Full=Phosphoglycerate kinase
+MTAFRTL-------------------------
+>B3DRV9.1  RecName: Full=Phosphoglycerate kinase
+MKTLKDL-------------------------
+>P09403.3  RecName: Full=Phosphoglycerate kinase
+MRTLLDL-------------------------
+>B8FJP4.1  RecName: Full=Phosphoglycerate kinase
+MLNMRDV-------------------------
+>P62420.1  RecName: Full=Phosphoglycerate kinase
+MRTLLDL-------------------------
+>Q8G6D6.2  RecName: Full=Phosphoglycerate kinase
+MKTLKDL-------------------------
+>P62415.1  RecName: Full=Phosphoglycerate kinase
+MNYNNKK-------------------------
+>Q3KL01.1  RecName: Full=Phosphoglycerate kinase
+MDKLSIR-------------------------
+>B0B8R9.1  RecName: Full=Phosphoglycerate kinase >B0BAE8.1 RecName: Full=Phosphoglycerate kinase
+MDKLSIR-------------------------
+>Q2S3A7.1  RecName: Full=Phosphoglycerate kinase
+MHKLTLD-------------------------
+>Q7WTU1.1  RecName: Full=Phosphoglycerate kinase
+MTNKKEL-------------------------
+>B8J4D3.1  RecName: Full=Phosphoglycerate kinase
+MPVTKMQ-------------------------
+>P0CD78.1  RecName: Full=Phosphoglycerate kinase
+MDKLSIR-------------------------
+>Q9PLN4.1  RecName: Full=Phosphoglycerate kinase
+MDKLSIK-------------------------
+>O61471.1  RecName: Full=Phosphoglycerate kinase
+MNKLSIN-------------------------
+>C0Q9Z7.1  RecName: Full=Phosphoglycerate kinase
+MKTVREI-------------------------
+>A6Q539.1  RecName: Full=Phosphoglycerate kinase
+MNIKSIK-------------------------
+>Q7M9C1.1  RecName: Full=Phosphoglycerate kinase
+MVAGINL-------------------------
+>Q8A753.1  RecName: Full=Phosphoglycerate kinase
+MQTIDKF-------------------------
+>A6UCV3.1  RecName: Full=Phosphoglycerate kinase
+MTFKTLD-------------------------
+>B9M2C3.1  RecName: Full=Phosphoglycerate kinase
+MSILYID-------------------------
+>Q11CR7.1  RecName: Full=Phosphoglycerate kinase
+MAGFKTL-------------------------
+>C5BV35.1  RecName: Full=Phosphoglycerate kinase
+MRTIDDL-------------------------
+>O02609.1  RecName: Full=Phosphoglycerate kinase
+MLSKKLA-------------------------
+>Q92M79.1  RecName: Full=Phosphoglycerate kinase
+MTFKTLD-------------------------
+>B9KFD9.1  RecName: Full=Phosphoglycerate kinase
+MSSILSI-------------------------
+>Q7MU77.1  RecName: Full=Phosphoglycerate kinase
+MTIEQFN-------------------------
+>Q0BVE2.1  RecName: Full=Phosphoglycerate kinase
+MSFRTLD-------------------------
+>A5CRT6.1  RecName: Full=Phosphoglycerate kinase
+MALRTID-------------------------
+>Q9RUP2.1  RecName: Full=Phosphoglycerate kinase
+MTGLCPL-------------------------
+>Q89U95.1  RecName: Full=Phosphoglycerate kinase
+MANKFRT-------------------------
+>A0Q7J1.1  RecName: Full=Phosphoglycerate kinase
+MSFLTLK-------------------------
+>Q829W2.1  RecName: Full=Phosphoglycerate kinase
+MKTIDEL-------------------------
+>Q7UEX1.1  RecName: Full=Phosphoglycerate kinase
+MAKKTID-------------------------
+>B0REJ2.1  RecName: Full=Phosphoglycerate kinase
+MALRTID-------------------------
+>B1Z980.1  RecName: Full=Phosphoglycerate kinase
+MTDFRTL-------------------------
+>Q5NF76.1  RecName: Full=Phosphoglycerate kinase >Q14GM9.1 RecName: Full=Phosphoglycerate kinase >A4IWY7.1 RecName: Full=Phosphoglycerate kinase
+MSFLTLK-------------------------
+>B1I0X7.1  RecName: Full=Phosphoglycerate kinase
+MLKKTIR-------------------------
+>A7I1G1.1  RecName: Full=Phosphoglycerate kinase
+MGEILSV-------------------------
+>Q5X8U1.1  RecName: Full=Phosphoglycerate kinase
+MNLIKMS-------------------------
+>A8EWM4.1  RecName: Full=Phosphoglycerate kinase
+MKLQEIK-------------------------
+>A9W5A7.1  RecName: Full=Phosphoglycerate kinase
+MTDFRTL-------------------------
+>B2SFU7.1  RecName: Full=Phosphoglycerate kinase
+MSFLTLK-------------------------
+>A8IM75.1  RecName: Full=Phosphoglycerate kinase
+MPTFRTL-------------------------
+>A5I9V7.1  RecName: Full=Phosphoglycerate kinase
+MNLIKMS-------------------------
+>P62410.1  RecName: Full=Phosphoglycerate kinase
+MANGLKG-------------------------
+>B7KNP6.1  RecName: Full=Phosphoglycerate kinase
+MTDFRTL-------------------------
+>P50311.2  RecName: Full=Phosphoglycerate kinase
+MGLRKLS-------------------------
+>B0TY21.1  RecName: Full=Phosphoglycerate kinase
+MSFLTLK-------------------------
+>Q6A9J3.1  RecName: Full=Phosphoglycerate kinase
+MKSVEDL-------------------------
+>C1CV29.1  RecName: Full=Phosphoglycerate kinase
+MQNLSSL-------------------------
+>B2FSF3.1  RecName: Full=Phosphoglycerate kinase
+MSIVRMT-------------------------
+>Q0BLP2.1  RecName: Full=Phosphoglycerate kinase >Q2A369.1 RecName: Full=Phosphoglycerate kinase >A7NCI3.1 RecName: Full=Phosphoglycerate kinase
+MSFLTLK-------------------------
+>Q5ZZ74.1  RecName: Full=Phosphoglycerate kinase
+MNLIKMS-------------------------
+>P62417.1  RecName: Full=Phosphoglycerate kinase
+MTKSLTN-------------------------
+>B6IWR7.1  RecName: Full=Phosphoglycerate kinase
+MAFKTLD-------------------------
+>B4STV2.1  RecName: Full=Phosphoglycerate kinase
+MSIVRMT-------------------------
+>Q5X084.1  RecName: Full=Phosphoglycerate kinase
+MNLIKMS-------------------------
+>A8FN77.1  RecName: Full=Phosphoglycerate kinase
+MSDIISI-------------------------
+>Q9PMQ5.1  RecName: Full=Phosphoglycerate kinase
+MSDIISI-------------------------
+>Q5HT15.1  RecName: Full=Phosphoglycerate kinase
+MSDIISI-------------------------
+>C6BUI7.1  RecName: Full=Phosphoglycerate kinase
+MRFIDQL-------------------------
+>B5Y8I0.1  RecName: Full=Phosphoglycerate kinase
+MKLRSIR-------------------------
+>Q83AU6.1  RecName: Full=Phosphoglycerate kinase
+MSNLNLH-------------------------
+>B1W0Z3.1  RecName: Full=Phosphoglycerate kinase
+MKTIDEL-------------------------
+>A1W116.1  RecName: Full=Phosphoglycerate kinase
+MSDIISI-------------------------
+>Q8U9I9.2  RecName: Full=Phosphoglycerate kinase
+MPAFKTI-------------------------
+>A7H5C5.1  RecName: Full=Phosphoglycerate kinase
+MSDIISI-------------------------
+>Q5FTL1.1  RecName: Full=Phosphoglycerate kinase
+MAFRTLD-------------------------
+>P50313.1  RecName: Full=Phosphoglycerate kinase
+MLSRKIG-------------------------
+>P62419.1  RecName: Full=Phosphoglycerate kinase
+MTKTFRT-------------------------
+>Q1GHP9.1  RecName: Full=Phosphoglycerate kinase
+MGWKTLD-------------------------
+>A1WVV5.1  RecName: Full=Phosphoglycerate kinase
+MKAKRMT-------------------------
+>C3MIJ2.1  RecName: Full=Phosphoglycerate kinase
+MTFKTLD-------------------------
+>Q6FYN4.1  RecName: Full=Phosphoglycerate kinase
+MGFRTLD-------------------------
+>Q9L560.2  RecName: Full=Phosphoglycerate kinase
+MMFRTLD-------------------------
+>A9IYR6.1  RecName: Full=Phosphoglycerate kinase
+MVFRTLD-------------------------
+>Q9ZJP1.1  RecName: Full=Phosphoglycerate kinase
+MLAKMSF-------------------------
+>Q8YIY0.2  RecName: Full=Phosphoglycerate kinase
+MMFRTLD-------------------------
+>Q052H7.1  RecName: Full=Phosphoglycerate kinase
+MELPRLE-------------------------
+>Q98FJ1.1  RecName: Full=Phosphoglycerate kinase
+MAAFKTL-------------------------
+>Q04TE9.1  RecName: Full=Phosphoglycerate kinase
+MELPRLE-------------------------
+>A1U543.1  RecName: Full=Phosphoglycerate kinase
+MAIKKMT-------------------------
+>B9JS00.1  RecName: Full=Phosphoglycerate kinase
+MPAFKTL-------------------------
+>B9KZ66.1  RecName: Full=Phosphoglycerate kinase
+MRTVRDL-------------------------
+>P56154.1  RecName: Full=Phosphoglycerate kinase
+MLAKMSF-------------------------
+>Q8L1Z8.1  RecName: Full=Phosphoglycerate kinase
+MGFRTLD-------------------------
+>O00940.1  RecName: Full=Phosphoglycerate kinase
+VDFNVPI-------------------------
+>Q30PQ4.1  RecName: Full=Phosphoglycerate kinase
+MELLNIK-------------------------
+>Q98QW4.1  RecName: Full=Phosphoglycerate kinase
+MKKLITDSNFETSNSNFETSNFETSTFLNTDF
+>B4EUH8.1  RecName: Full=Phosphoglycerate kinase
+MSVIKMT-------------------------
+>Q164R7.1  RecName: Full=Phosphoglycerate kinase
+MSWKTLD-------------------------
+>P62411.1  RecName: Full=Phosphoglycerate kinase
+MAIKTLK-------------------------
+>Q8FYX8.1  RecName: Full=Phosphoglycerate kinase
+MFRTLDD-------------------------
+>C3PG40.1  RecName: Full=Phosphoglycerate kinase
+MAFKTLD-------------------------
+>B8GP44.1  RecName: Full=Phosphoglycerate kinase
+MSVIKMT-------------------------
+>Q9Z519.1  RecName: Full=Phosphoglycerate kinase
+MKTIDEL-------------------------
+>B5ZPA0.1  RecName: Full=Phosphoglycerate kinase
+MPSFKTL-------------------------
+>A4FBM5.1  RecName: Full=Phosphoglycerate kinase
+MKNLDDL-------------------------
+>Q0A4Q5.1  RecName: Full=Phosphoglycerate kinase
+MAVIKMT-------------------------
+>B1M787.1  RecName: Full=Phosphoglycerate kinase
+MSAFRTL-------------------------
+>Q0RH06.1  RecName: Full=Phosphoglycerate kinase
+MRTIDDL-------------------------
+>Q6AF44.1  RecName: Full=Phosphoglycerate kinase
+MALRTLD-------------------------
+>Q2JCH8.1  RecName: Full=Phosphoglycerate kinase
+MRTIDDL-------------------------
+>Q47XD4.1  RecName: Full=Phosphoglycerate kinase
+MSIIKMA-------------------------
+>Q3J7E3.1  RecName: Full=Phosphoglycerate kinase
+MPILKMS-------------------------
+>O02608.1  RecName: Full=Phosphoglycerate kinase
+MLSKKLT-------------------------
+>Q8F5H8.1  RecName: Full=Phosphoglycerate kinase
+MELPRLE-------------------------
+>Q8FT66.1  RecName: Full=Phosphoglycerate kinase
+MAVKTLK-------------------------
+>A4XDR3.1  RecName: Full=Phosphoglycerate kinase
+MTIRTLD-------------------------
+>B7JBC8.1  RecName: Full=Phosphoglycerate kinase >B5ERJ0.1 RecName: Full=Phosphoglycerate kinase
+MNVLRMM-------------------------
+>Q2NRD5.1  RecName: Full=Phosphoglycerate kinase
+MAVIKMT-------------------------
+>A8LW18.1  RecName: Full=Phosphoglycerate kinase
+MNIRTLD-------------------------
+>Q9I5Y4.1  RecName: Full=Phosphoglycerate kinase >Q02TL3.1 RecName: Full=Phosphoglycerate kinase
+MTVLKMT-------------------------
+>P62414.1  RecName: Full=Phosphoglycerate kinase
+MELPRLE-------------------------
+>Q8P5Z4.1  RecName: Full=Phosphoglycerate kinase >Q4UY23.1 RecName: Full=Phosphoglycerate kinase >B0RPF1.1 RecName: Full=Phosphoglycerate kinase
+MSIVRMT-------------------------
+>P78018.1  RecName: Full=Phosphoglycerate kinase
+MVDFKTV-------------------------
+>A4QEG1.1  RecName: Full=Phosphoglycerate kinase
+MAVKTLK-------------------------
+>Q7N7Z5.1  RecName: Full=Phosphoglycerate kinase
+MSVIKMT-------------------------
+>P09404.1  RecName: Full=Phosphoglycerate kinase
+MAFRTLD-------------------------
+>Q8ZHH3.1  RecName: Full=Phosphoglycerate kinase >Q666Q1.1 RecName: Full=Phosphoglycerate kinase >Q1CB61.1 RecName: Full=Phosphoglycerate kinase >Q1CEY3.1 RecName: Full=Phosphoglycerate kinase >A7FF05.1 RecName: Full=Phosphoglycerate kinase >A4TI90.1 RecName: Full=Phosphoglycerate kinase >A9R4J2.1 RecName: Full=Phosphoglycerate kinase >B1JNR1.1 RecName: Full=Phosphoglycerate kinase >B2K0S0.1 RecName: Full=Phosphoglycerate kinase
+MSVIKMT-------------------------
+>A6UZ15.1  RecName: Full=Phosphoglycerate kinase
+MTVLKMT-------------------------
+>B7V4D9.1  RecName: Full=Phosphoglycerate kinase
+MTVLKMT-------------------------
+>C0ZZF3.1  RecName: Full=Phosphoglycerate kinase
+MAVQTLK-------------------------
+>C5CBP5.1  RecName: Full=Phosphoglycerate kinase
+MPASTLN-------------------------
+>Q4JVJ3.1  RecName: Full=Phosphoglycerate kinase
+MAIKTVQ-------------------------
+>Q01655.2  RecName: Full=Phosphoglycerate kinase
+MAVKTLK-------------------------
+>A8H0N0.1  RecName: Full=Phosphoglycerate kinase
+MTILNMK-------------------------
+>A1UR75.1  RecName: Full=Phosphoglycerate kinase
+MKFRTIN-------------------------
+>A1JPR0.1  RecName: Full=Phosphoglycerate kinase
+MSVIKMT-------------------------
+>Q12QA3.1  RecName: Full=Phosphoglycerate kinase
+MAIINMT-------------------------
+>Q15QK4.1  RecName: Full=Phosphoglycerate kinase
+MSIINMT-------------------------
+>Q1MC31.1  RecName: Full=Phosphoglycerate kinase
+MPSFKTL-------------------------
+>Q3ILL7.1  RecName: Full=Phosphoglycerate kinase
+MSVIKMA-------------------------
+>A4G895.1  RecName: Full=Phosphoglycerate kinase
+MQFKRLS-------------------------
+>A7MJQ4.1  RecName: Full=Phosphoglycerate kinase
+MSVIKMT-------------------------
+>P65703.2  RecName: Full=Phosphoglycerate kinase >P65702.2 RecName: Full=Phosphoglycerate kinase >Q57K45.1 RecName: Full=Phosphoglycerate kinase >Q5PJI6.1 RecName: Full=Phosphoglycerate kinase >A9MRF1.1 RecName: Full=Phosphoglycerate kinase >A9N3Q5.1 RecName: Full=Phosphoglycerate kinase >B5F5J4.1 RecName: Full=Phosphoglycerate kinase >B5FUI2.1 RecName: Full=Phosphoglycerate kinase >B5QXJ6.1 RecName: Full=Phosphoglycerate kinase >B5RE30.1 RecName: Full=Phosphoglycerate kinase >B4THF3.1 RecName: Full=Phosphoglycerate kinase >B5BFN4.1 RecName: Full=Phosphoglycerate kinase >B4T5H1.1 RecName: Full=Phosphoglycerate kinase >B4TV38.1 RecName: Full=Phosphoglycerate kinase
+MSVIKMT-------------------------
+>Q3BPW7.1  RecName: Full=Phosphoglycerate kinase
+MSIVRMT-------------------------
+>C4LIR6.1  RecName: Full=Phosphoglycerate kinase
+MAVKKLA-------------------------
+>Q2SLS9.1  RecName: Full=Phosphoglycerate kinase
+MSVIKMT-------------------------
+>Q2YC27.1  RecName: Full=Phosphoglycerate kinase
+MSVIRVT-------------------------
+>Q9A3F5.1  RecName: Full=Phosphoglycerate kinase >B8H4J9.1 RecName: Full=Phosphoglycerate kinase
+MTFRTLD-------------------------
+>A1AVA8.1  RecName: Full=Phosphoglycerate kinase
+MSVINLL-------------------------
+>C6DFH7.1  RecName: Full=Phosphoglycerate kinase
+MSVIKMT-------------------------
+>Q0AFQ9.1  RecName: Full=Phosphoglycerate kinase
+MSVIKLV-------------------------
+>B1VDQ4.1  RecName: Full=Phosphoglycerate kinase
+MAVKTLK-------------------------
+>Q6D087.1  RecName: Full=Phosphoglycerate kinase
+MSVIKMT-------------------------
+>A4WE71.1  RecName: Full=Phosphoglycerate kinase
+MSVIKMT-------------------------
+>Q8PHB2.1  RecName: Full=Phosphoglycerate kinase
+MSIVRMT-------------------------
+>Q8GF87.3  RecName: Full=Phosphoglycerate kinase
+MSVIKMT-------------------------
+>A5CXU9.1  RecName: Full=Phosphoglycerate kinase
+MSVINLS-------------------------
+>Q83HP8.1  RecName: Full=Phosphoglycerate kinase
+MRTLGGF-------------------------
+>Q83GI2.1  RecName: Full=Phosphoglycerate kinase
+MRTLGGF-------------------------
+>A8FRL4.1  RecName: Full=Phosphoglycerate kinase
+MAIINMS-------------------------
+>A6T1Z0.1  RecName: Full=Phosphoglycerate kinase
+MQFKRLS-------------------------
+>B2SI21.1  RecName: Full=Phosphoglycerate kinase
+MSIVRMT-------------------------
+>Q9PF55.2  RecName: Full=Phosphoglycerate kinase
+MSIVRMT-------------------------
+>Q0S0J4.1  RecName: Full=Phosphoglycerate kinase
+MAVQTLD-------------------------
+>Q5GXA2.1  RecName: Full=Phosphoglycerate kinase >Q2P0F7.1 RecName: Full=Phosphoglycerate kinase
+MSIVRMT-------------------------
+>B5XUB8.1  RecName: Full=Phosphoglycerate kinase
+MSVIKMT-------------------------
+>B2HP85.1  RecName: Full=Phosphoglycerate kinase
+MTIHSLE-------------------------
+>B8E5U4.1  RecName: Full=Phosphoglycerate kinase
+MAIINMS-------------------------
+>Q3YXU6.1  RecName: Full=Phosphoglycerate kinase
+MSVIKMT-------------------------
+>Q7WZ28.1  RecName: Full=Phosphoglycerate kinase
+MQPTYKN-------------------------
+>C1B4L7.1  RecName: Full=Phosphoglycerate kinase
+MAVQTLD-------------------------
+>A9L1M3.1  RecName: Full=Phosphoglycerate kinase
+MAIINMS-------------------------
+>C1D9S8.1  RecName: Full=Phosphoglycerate kinase
+MQFKKLT-------------------------
+>Q0VL87.1  RecName: Full=Phosphoglycerate kinase
+MNFKRMT-------------------------
+>Q5GRV2.1  RecName: Full=Phosphoglycerate kinase
+MMNIPNI-------------------------
+>Q87AH8.1  RecName: Full=Phosphoglycerate kinase
+MSIVRMT-------------------------
+>Q4K4J1.1  RecName: Full=Phosphoglycerate kinase
+MTVLKMT-------------------------
+>Q7NBG7.1  RecName: Full=Phosphoglycerate kinase
+MINYNKK-------------------------
+>Q7VZB8.1  RecName: Full=Phosphoglycerate kinase
+MSNVNTL-------------------------
+>Q2G6W8.1  RecName: Full=Phosphoglycerate kinase
+MSFKTLD-------------------------
+>Q0ALG1.1  RecName: Full=Phosphoglycerate kinase
+MTEIRRI-------------------------
+>A8A466.1  RecName: Full=Phosphoglycerate kinase
+MSVIKMT-------------------------
+>P0A799.2  RecName: Full=Phosphoglycerate kinase >P0A7A0.2 RecName: Full=Phosphoglycerate kinase >P0A7A1.2 RecName: Full=Phosphoglycerate kinase >Q0T0X4.1 RecName: Full=Phosphoglycerate kinase >Q0TDT0.1 RecName: Full=Phosphoglycerate kinase >Q31WI5.1 RecName: Full=Phosphoglycerate kinase >A7ZR34.1 RecName: Full=Phosphoglycerate kinase >A1AFB0.1 RecName: Full=Phosphoglycerate kinase >B1IT77.1 RecName: Full=Phosphoglycerate kinase
+MSVIKMT-------------------------
+>Q32BY6.1  RecName: Full=Phosphoglycerate kinase
+MSVIKMT-------------------------
+>Q3K5F2.1  RecName: Full=Phosphoglycerate kinase
+MTVLKMS-------------------------
+>Q1I3Y0.1  RecName: Full=Phosphoglycerate kinase
+MTVLKMT-------------------------
+>A3QAX8.1  RecName: Full=Phosphoglycerate kinase
+MAIINMS-------------------------
+>Q7WB43.2  RecName: Full=Phosphoglycerate kinase
+MSNVNTL-------------------------
+>Q8XD03.3  RecName: Full=Phosphoglycerate kinase
+MSVIKMT-------------------------
+>B0TUC1.1  RecName: Full=Phosphoglycerate kinase
+MAILNMQ-------------------------
+>A0PPN3.1  RecName: Full=Phosphoglycerate kinase
+MTIHSLE-------------------------
+>A4Y3S0.1  RecName: Full=Phosphoglycerate kinase
+MAIINMS-------------------------
+>Q7P1M4.1  RecName: Full=Phosphoglycerate kinase
+MKFNKLS-------------------------
+>A6WS76.1  RecName: Full=Phosphoglycerate kinase
+MAIINMS-------------------------
+>Q82XE8.1  RecName: Full=Phosphoglycerate kinase
+MSVIKLV-------------------------
+>C3K3F1.1  RecName: Full=Phosphoglycerate kinase
+MTVLKMT-------------------------
+>A8KYR5.1  RecName: Full=Phosphoglycerate kinase
+MRTIDDL-------------------------
+>A6W3D3.1  RecName: Full=Phosphoglycerate kinase
+MTVINMK-------------------------
+>B0SUL9.1  RecName: Full=Phosphoglycerate kinase
+MPFRTLD-------------------------
+>C5BTP7.1  RecName: Full=Phosphoglycerate kinase
+MSVKLMK-------------------------
+>C1DKE9.1  RecName: Full=Phosphoglycerate kinase
+MTVLKMT-------------------------
+>A4TC15.1  RecName: Full=Phosphoglycerate kinase
+MGIKSLD-------------------------
+>Q5LR94.1  RecName: Full=Phosphoglycerate kinase
+MGWKTLD-------------------------
+>Q7WMK9.1  RecName: Full=Phosphoglycerate kinase
+MSNVNTL-------------------------
+>B3CM25.1  RecName: Full=Phosphoglycerate kinase
+MINVPSI-------------------------
+>P62422.1  RecName: Full=Phosphoglycerate kinase
+MNIPSIE-------------------------
+>Q1B9C1.1  RecName: Full=Phosphoglycerate kinase >A3PZA2.1 RecName: Full=Phosphoglycerate kinase >A1UFP0.1 RecName: Full=Phosphoglycerate kinase
+MAVKTLE-------------------------
+>Q8Y1W6.1  RecName: Full=Phosphoglycerate kinase
+MASGKIA-------------------------
+>Q1GZ23.1  RecName: Full=Phosphoglycerate kinase
+MTVINMT-------------------------
+>P65701.1  RecName: Full=Phosphoglycerate kinase >A1KIM6.1 RecName: Full=Phosphoglycerate kinase >A5U2D9.1 RecName: Full=Phosphoglycerate kinase >C1AN82.1 RecName: Full=Phosphoglycerate kinase >P9WID0.1 RecName: Full=Phosphoglycerate kinase >P9WID1.1 RecName: Full=Phosphoglycerate kinase
+MSVANLK-------------------------
+>Q087Q6.1  RecName: Full=Phosphoglycerate kinase
+MAIINMT-------------------------
+>Q8EIB1.1  RecName: Full=Phosphoglycerate kinase
+MAIINMS-------------------------
+>Q48CH7.1  RecName: Full=Phosphoglycerate kinase
+MTVLKMT-------------------------
+>A4SRF1.1  RecName: Full=Phosphoglycerate kinase
+MSVIKMT-------------------------
+>Q8EUV2.1  RecName: Full=Phosphoglycerate kinase
+MEYNKKI-------------------------
+>Q28RQ1.1  RecName: Full=Phosphoglycerate kinase
+MRFNTLD-------------------------
+>Q3SMD2.1  RecName: Full=Phosphoglycerate kinase
+MAFIRVT-------------------------
+>Q5YTQ5.1  RecName: Full=Phosphoglycerate kinase
+MAVKTLQ-------------------------
+>A1RN68.1  RecName: Full=Phosphoglycerate kinase
+MAIINMS-------------------------
+>A3D0U1.1  RecName: Full=Phosphoglycerate kinase
+MAIINMS-------------------------
+>B1KF21.1  RecName: Full=Phosphoglycerate kinase
+MAIINMS-------------------------
+>B1J302.1  RecName: Full=Phosphoglycerate kinase
+MTVLKMT-------------------------
+>A1VBC3.1  RecName: Full=Phosphoglycerate kinase
+MAVIKMT-------------------------
+>P62412.1  RecName: Full=Phosphoglycerate kinase
+MAVIKMT-------------------------
+>A1R6H1.1  RecName: Full=Phosphoglycerate kinase
+MTSHTLN-------------------------
+>Q88AK3.1  RecName: Full=Phosphoglycerate kinase
+MTVLKMT-------------------------
+>A0L0K6.1  RecName: Full=Phosphoglycerate kinase
+MAIINMS-------------------------
+>A6WC55.1  RecName: Full=Phosphoglycerate kinase
+MKTLDDL-------------------------
+>P50320.1  RecName: Full=Phosphoglycerate kinase, plasmid
+MMSLSHA-------------------------
+>Q4ZM05.1  RecName: Full=Phosphoglycerate kinase
+MTVLKMT-------------------------
