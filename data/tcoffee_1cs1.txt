@@ -1,0 +1,126 @@
+>P00935.1  RecName: Full=Cystathionine gamma-synthase; Short=CGS; AltName: Full=O-succinylhomoserine (thiol)-lyase
+MTRK
+>P0A4K2.1  RecName: Full=Cystathionine beta-lyase; Short=CBL; AltName: Full=Beta-cystathionase; AltName: Full=Cysteine lyase >A2RM21.1 RecName: Full=Cystathionine beta-lyase; Short=CBL; AltName: Full=Beta-cystathionase; AltName: Full=Cysteine lyase
+MTSI
+>P0C2T9.1  RecName: Full=Cystathionine beta-lyase; Short=CBL; AltName: Full=Beta-cystathionase; AltName: Full=Cysteine lyase
+MTSL
+>Q83A83.1  RecName: Full=Cystathionine beta-lyase; Short=CBL; AltName: Full=Beta-cystathionase; AltName: Full=Cysteine lyase
+MTAN
+>O05394.1  RecName: Full=Cystathionine gamma-lyase; AltName: Full=Gamma-cystathionase; AltName: Full=Homocysteine gamma-lyase
+MKKK
+>Q55DV9.1  RecName: Full=Cystathionine gamma-lyase; AltName: Full=Gamma-cystathionase
+MTQP
+>P56069.1  RecName: Full=Cystathionine gamma-synthase; Short=CGS; AltName: Full=O-succinylhomoserine (thiol)-lyase
+MRMQ
+>Q1M0P5.1  RecName: Full=Cystathionine gamma-synthase; Short=CGS; AltName: Full=O-succinylhomoserine (thiol)-lyase
+MHMQ
+>Q9ZMW7.1  RecName: Full=Cystathionine gamma-synthase; Short=CGS; AltName: Full=O-succinylhomoserine (thiol)-lyase
+MRMQ
+>P66876.1  RecName: Full=Cystathionine gamma-synthase; Short=CGS; AltName: Full=O-succinylhomoserine (thiol)-lyase >P9WGB6.1 RecName: Full=Cystathionine gamma-synthase; Short=CGS; AltName: Full=O-succinylhomoserine (thiol)-lyase >P9WGB7.1 RecName: Full=Cystathionine gamma-synthase; Short=CGS; AltName: Full=O-succinylhomoserine (thiol)-lyase
+MSED
+>P55216.1  RecName: Full=Putative cystathionine gamma-lyase 2; AltName: Full=Gamma-cystathionase
+MATF
+>Q8VCN5.1  RecName: Full=Cystathionine gamma-lyase; AltName: Full=Cysteine-protein sulfhydrase; AltName: Full=Gamma-cystathionase
+MQKD
+>Q60HG7.1  RecName: Full=Cystathionine gamma-lyase; AltName: Full=Cysteine-protein sulfhydrase; AltName: Full=Gamma-cystathionase
+MQEK
+>O31632.1  RecName: Full=Cystathionine beta-lyase MetC; Short=CBL; AltName: Full=Beta-cystathionase; AltName: Full=Cysteine lyase
+MSKH
+>P46807.1  RecName: Full=Cystathionine gamma-synthase; Short=CGS; AltName: Full=O-succinylhomoserine (thiol)-lyase
+MSED
+>O31631.1  RecName: Full=Cystathionine gamma-synthase/O-acetylhomoserine (thiol)-lyase; Short=CGS/OAH thiolyase; AltName: Full=O-acetylhomoserine sulfhydrylase; Short=OAH sulfhydrylase
+MSQH
+>Q19QT7.1  RecName: Full=Cystathionine gamma-lyase; AltName: Full=Cysteine-protein sulfhydrase; AltName: Full=Gamma-cystathionase
+MQEK
+>P18757.2  RecName: Full=Cystathionine gamma-lyase; AltName: Full=Cysteine-protein sulfhydrase; AltName: Full=Gamma-cystathionase; AltName: Full=Probasin-related antigen; Short=PRB-RA
+MQKD
+>P44502.1  RecName: Full=Cystathionine gamma-synthase; Short=CGS; AltName: Full=O-succinylhomoserine (thiol)-lyase
+MTQQ
+>Q8L0X4.1  RecName: Full=L-methionine gamma-lyase; Short=MGL; AltName: Full=Homocysteine desulfhydrase; AltName: Full=L-methionine-alpha-deamino-gamma-mercaptomethane-lyase; Short=METase
+METK
+>P32929.3  RecName: Full=Cystathionine gamma-lyase; AltName: Full=Cysteine-protein sulfhydrase; AltName: Full=Gamma-cystathionase
+MQEK
+>Q8RDT4.1  RecName: Full=L-methionine gamma-lyase; Short=MGL; AltName: Full=Homocysteine desulfhydrase; AltName: Full=L-cysteine desulfidase
+MEMK
+>Q7MX71.2  RecName: Full=L-methionine gamma-lyase; Short=MGL; AltName: Full=Homocysteine desulfhydrase; AltName: Full=L-methionine-alpha-deamino-gamma-mercaptomethane-lyase; Short=METase
+MKKE
+>Q58DW2.1  RecName: Full=Cystathionine gamma-lyase; AltName: Full=Cysteine-protein sulfhydrase; AltName: Full=Gamma-cystathionase
+MQEK
+>P13254.2  RecName: Full=L-methionine gamma-lyase; Short=MGL; AltName: Full=Homocysteine desulfhydrase; AltName: Full=L-methioninase
+MHGS
+>P53780.1  RecName: Full=Cystathionine beta-lyase, chloroplastic; Short=CBL; AltName: Full=Beta-cystathionase; AltName: Full=Cysteine lyase; Flags: Precursor
+MTSS
+>Q73KL7.1  RecName: Full=L-methionine gamma-lyase; Short=MGL; AltName: Full=Homocysteine desulfhydrase; AltName: Full=L-methionine-alpha-deamino-gamma-mercaptomethane-lyase; Short=METase
+MNRK
+>O94350.4  RecName: Full=Cystathionine beta-lyase; Short=CBL; AltName: Full=Beta-cystathionase; AltName: Full=Cysteine lyase
+MPSD
+>P24601.1  RecName: Full=Probable cystathionine gamma-synthase; Short=CGS; AltName: Full=O-succinylhomoserine (thiol)-lyase
+MDYG
+>Q1K8G0.1  RecName: Full=Cystathionine beta-lyase
+MSTP
+>P55218.1  RecName: Full=O-succinylhomoserine sulfhydrylase; Short=OSH sulfhydrylase; Short=OSHS sulfhydrylase
+MTQD
+>P31373.2  RecName: Full=Cystathionine gamma-lyase; AltName: Full=Gamma-cystathionase; AltName: Full=Sulfur transfer protein 1
+MTLQ
+>P55217.3  RecName: Full=Cystathionine gamma-synthase 1, chloroplastic; Short=AtCGS1; AltName: Full=METHIONINE OVERACCUMULATION 1; AltName: Full=O-succinylhomoserine (thiol)-lyase; Flags: Precursor
+MAVS
+>P9WGB4.1  RecName: Full=O-succinylhomoserine sulfhydrylase; Short=OSH sulfhydrylase; Short=OSHS sulfhydrylase >P9WGB5.1 RecName: Full=O-succinylhomoserine sulfhydrylase; Short=OSH sulfhydrylase; Short=OSHS sulfhydrylase
+MTDE
+>P53101.1  RecName: Full=Cystathionine beta-lyase; Short=CBL; AltName: Full=Beta-cystathionase; AltName: Full=Cysteine lyase; AltName: Full=Sulfur transfer protein 3
+MPIK
+>Q9C876.1  RecName: Full=Probable cystathionine gamma-synthase 2
+MQIL
+>O13326.1  RecName: Full=Homocysteine synthase; AltName: Full=O-acetylhomoserine sulfhydrylase; Short=OAH SHL; Short=OAH sulfhydrylase
+MPVE
+>Q52811.2  RecName: Full=Putative cystathionine beta-lyase; Short=CBL; AltName: Full=Beta-cystathionase; AltName: Full=Cysteine lyase; AltName: Full=ORF5
+MKDK
+>A0A0D2YG02.1  RecName: Full=Sulfhydrylase FUB7; AltName: Full=Fusaric acid biosynthesis protein 7
+MAEQ
+>W7MS09.1  RecName: Full=Sulfhydrylase FUB7; AltName: Full=Fusaric acid biosynthesis protein 7
+MAEQ
+>S0DUX5.1  RecName: Full=Sulfhydrylase FUB7; AltName: Full=Fusaric acid biosynthesis protein 7
+MAEQ
+>Q07703.3  RecName: Full=Cystathionine beta-lyase; Short=CBL; AltName: Full=Beta-cystathionase; AltName: Full=Cysteine lyase; AltName: Full=Osteotoxin
+MSDT
+>Q59829.2  RecName: Full=Putative cystathionine gamma-lyase; AltName: Full=Gamma-cystathionase
+MSDS
+>P50125.2  RecName: Full=Homocysteine synthase; AltName: Full=O-acetylhomoserine sulfhydrylase; Short=OAH SHL; Short=OAH sulfhydrylase
+MSDP
+>P44527.1  RecName: Full=Cystathionine beta-lyase; Short=CBL; AltName: Full=Beta-cystathionase; AltName: Full=Cysteine lyase
+MQTK
+>P06721.1  RecName: Full=Cystathionine beta-lyase MetC; Short=CBL; AltName: Full=Beta-cystathionase; AltName: Full=Cysteine lyase
+MADK
+>Q92441.3  RecName: Full=Homocysteine/cysteine synthase; AltName: Full=O-acetylserine/O-acetylhomoserine sulfhydrylase; Short=OAS-OAH SHLase; Short=OAS-OAH sulfhydrylase
+MPSH
+>P18949.2  RecName: Full=Cystathionine beta-lyase; Short=CBL; AltName: Full=Beta-cystathionase; AltName: Full=Cysteine lyase
+MTDK
+>O42851.1  RecName: Full=Uncharacterized trans-sulfuration enzyme C23A1.14c
+MTHT
+>P38716.1  RecName: Full=Uncharacterized trans-sulfuration enzyme YHR112C
+MVDL
+>Q9SGU9.1  RecName: Full=Methionine gamma-lyase; Short=AtMGL; AltName: Full=L-methioninase
+MAHF
+>P43623.1  RecName: Full=Putative cystathionine beta-lyase; Short=CBL; AltName: Full=Beta-cystathionase; AltName: Full=Cysteine lyase; AltName: Full=Increased recombination centers protein 7
+MIDR
+>P06106.3  RecName: Full=Homocysteine/cysteine synthase; AltName: Full=O-acetylserine/O-acetylhomoserine sulfhydrylase; Short=OAS-OAH SHLase; Short=OAS-OAH sulfhydrylase
+MPSH
+>O74314.1  RecName: Full=Probable cystathionine gamma-synthase; AltName: Full=O-succinylhomoserine (thiol)-lyase
+MSAN
+>P38675.3  RecName: Full=Cystathionine gamma-synthase; AltName: Full=O-succinylhomoserine (thiol)-lyase
+MPPF
+>P47164.1  RecName: Full=Cystathionine gamma-synthase; AltName: Full=O-succinylhomoserine (thiol)-lyase; AltName: Full=Sulfur transfer protein 2
+MISR
+>Q12198.1  RecName: Full=Putative cystathionine gamma-synthase YLL058W; AltName: Full=O-succinylhomoserine (thiol)-lyase
+MTEI
+>Q04533.1  RecName: Full=Putative cystathionine gamma-synthase YML082W; AltName: Full=O-succinylhomoserine (thiol)-lyase
+MVSA
+>A3N2L0.1  RecName: Full=L-seryl-tRNA(Sec) selenium transferase; AltName: Full=Selenocysteine synthase; Short=Sec synthase; AltName: Full=Selenocysteinyl-tRNA(Sec) synthase
+MQKL
+>B3GYP5.1  RecName: Full=L-seryl-tRNA(Sec) selenium transferase; AltName: Full=Selenocysteine synthase; Short=Sec synthase; AltName: Full=Selenocysteinyl-tRNA(Sec) synthase
+MQKL
+>Q47XG4.1  RecName: Full=Serine hydroxymethyltransferase 3; Short=SHMT 3; Short=Serine methylase 3
+MKNT
+>A4SVI6.1  RecName: Full=Serine hydroxymethyltransferase; Short=SHMT; Short=Serine methylase
+MFDR
+>B1XTC3.1  RecName: Full=Serine hydroxymethyltransferase; Short=SHMT; Short=Serine methylase
+MFDR

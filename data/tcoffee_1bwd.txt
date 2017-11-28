@@ -1,0 +1,30 @@
+>P08078.3  RecName: Full=Inosamine-phosphate amidinotransferase 1; AltName: Full=Aminocyclitol amidinotransferase; Short=ADT; AltName: Full=Inosamine-phosphate amidinotransferase I
+MSLVSVHNEWDPLEEVIVGTAVGARVPTADRSVFAVEYAGDYESQ---
+>Q54258.1  RecName: Full=Inosamine-phosphate amidinotransferase 1; AltName: Full=Aminocyclitol amidinotransferase; Short=ADT; AltName: Full=Inosamine-phosphate amidinotransferase I
+MSLVSVHNEWDPLEEIIVGTAVGARVPRADRSVFAVEYADEYDSQ---
+>P29780.1  RecName: Full=Putative inosamine-phosphate amidinotransferase 2; AltName: Full=Aminocyclitol amidinotransferase; Short=ADT; AltName: Full=Inosamine-phosphate amidinotransferase II
+MSLVGVHNEWDPLEEVVVGTARRPCAGPDRSLLAVEYAEYAGPGR---
+>Q54264.1  RecName: Full=Putative inosamine-phosphate amidinotransferase 2; AltName: Full=Aminocyclitol amidinotransferase; Short=ADT; AltName: Full=Inosamine-phosphate amidinotransferase II
+MSLAGVYTEWDPLEEIVVGTAVGSENRMVRETEDELDGLCEELRG---
+>Q6PH19.1  RecName: Full=Glycine amidinotransferase, mitochondrial; AltName: Full=L-arginine:glycine amidinotransferase; AltName: Full=Transamidinase; Flags: Precursor
+MLRVRCLRGGSRGAEAAHLIGALVGRALSGRLSRASRSSSSSAAAWR-
+>Q9D964.1  RecName: Full=Glycine amidinotransferase, mitochondrial; AltName: Full=L-arginine:glycine amidinotransferase; AltName: Full=Transamidinase; Flags: Precursor
+MLRVRCLRGGSRGAEAVHYIGSRLGGSLTGWVQRTFQSTQAATASKRD
+>P50441.2  RecName: Full=Glycine amidinotransferase, mitochondrial; AltName: Full=L-arginine:glycine amidinotransferase; AltName: Full=Transamidinase; Flags: Precursor
+MLRVRCLRGGSRGAEALHYIGSRLGRTVTGWVQRTFQSTQAATASKRD
+>P50442.1  RecName: Full=Glycine amidinotransferase, mitochondrial; AltName: Full=L-arginine:glycine amidinotransferase; AltName: Full=Transamidinase; Flags: Precursor
+MLRVRCLRGGSRGAEAVHYIGSRLGGSLTGWVQRTFQSTQAATASKRD
+>Q9I9K9.2  RecName: Full=Glycine amidinotransferase, mitochondrial; AltName: Full=L-arginine:glycine amidinotransferase; AltName: Full=Transamidinase; Flags: Precursor
+MLRVRCLRGGSRGAEAAHFIGSRLGRAFTGWVQRSLQSTQAAAASWR-
+>Q2HJ74.1  RecName: Full=Glycine amidinotransferase, mitochondrial; AltName: Full=L-arginine:glycine amidinotransferase; AltName: Full=Transamidinase; Flags: Precursor
+MLRVRCLRGGSRGAEALHYIGSRLGRTVTGWVQRTFQSTQAATASKRD
+>Q6P832.1  RecName: Full=Glycine amidinotransferase, mitochondrial; AltName: Full=L-arginine:glycine amidinotransferase; AltName: Full=Transamidinase; Flags: Precursor
+MLRVRCVRGGSRGAEAVHYIGSMLRKGFVGWVQRSFQSTQAAAVSWR-
+>Q9IAJ6.2  RecName: Full=Glycine amidinotransferase, mitochondrial; AltName: Full=L-arginine:glycine amidinotransferase; AltName: Full=Transamidinase; Flags: Precursor
+MLRVRCLRGGSRGAEAVHYIGSMLRKSFVGWVQRSFQSTQAAAVSWR-
+>P50440.1  RecName: Full=Glycine amidinotransferase, mitochondrial; AltName: Full=L-arginine:glycine amidinotransferase; AltName: Full=Transamidinase; Flags: Precursor
+MLRVRCLRGGSRGAEAVHYIGSRLGRTLTGWVQRTFQSTQAATASKRD
+>Q4R806.1  RecName: Full=Glycine amidinotransferase, mitochondrial; AltName: Full=L-arginine:glycine amidinotransferase; AltName: Full=Transamidinase; Flags: Precursor
+MLRVRCLRGGSRGAEAVHYIGSRLGRTLTGWVQRTFQSTQAATASKRD
+>Q5RFB9.1  RecName: Full=Glycine amidinotransferase, mitochondrial; AltName: Full=L-arginine:glycine amidinotransferase; AltName: Full=Transamidinase; Flags: Precursor
+MLRVRCLRGGSRGAEAVHYIGSRLGRTLTGWVQRTFQSTQAATASKRD
