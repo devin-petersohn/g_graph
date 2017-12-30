@@ -1,6 +1,5 @@
 import ray
 import ray.local_scheduler as local_scheduler
-import warnings
 
 class Graph_collection:
     """
@@ -17,6 +16,14 @@ class Graph_collection:
         graphs as an example.
         """
         self.graph_dict = {}
+        self._graph_is_updated = {}
+        self._current_transaction_id = long(0)
+
+    def update_transaction_id():
+        """
+        Updates the transaction ID with that of the global graph manager.
+        """
+
 
     def add_graph(self, graph_id):
         """
@@ -25,11 +32,14 @@ class Graph_collection:
         Keyword arguments:
         graph_id -- the name of the new graph.
         """
+        self._current_transaction_id += 1
+
         if not graph_id or graph_id == "":
             raise ValueError("Graph must be named something.")
         if graph_id in self.graph_dict:
             raise ValueError("Graph name already exists.")
         self.graph_dict[graph_id] = Graph.remote()
+        self._graph_is_updated[graph_id] = []
         
     def add_node_to_graph(self, graph_id, key, node, adjacency_list = set(), connections_to_other_graphs = {}):
         """
@@ -41,29 +51,43 @@ class Graph_collection:
         node -- the data to add to the graph.
         adjacency_list -- a list of connected nodes, if any (default = set()).
         """
+        self._current_transaction_id += 1
+
         if type(connections_to_other_graphs) is not dict:
             raise ValueError("Connections between graphs must be labeled with a destination graph.")
 
         if graph_id not in self.graph_dict:
-            warnings.warn(str(graph_id) + " is not yet in this Graph Collection. Creating...", Warning)
+            print("Warning:", str(graph_id), "is not yet in this Graph Collection. Creating...")
             self.add_graph(graph_id)
 
-        _add_node_to_graph.remote(self.graph_dict[graph_id], graph_id, key, node, adjacency_list, connections_to_other_graphs)
-        _add_back_edges_within_graph.remote(self.graph_dict[graph_id], graph_id, key, adjacency_list)
+        self._graph_is_updated[graph_id].append(_add_node_to_graph.remote(self.graph_dict[graph_id],
+                                                                      graph_id,
+                                                                      key,
+                                                                      node,
+                                                                      adjacency_list,
+                                                                      connections_to_other_graphs))
 
-        for new_conn in connections_to_other_graphs:
-            if not new_conn in self.graph_dict:
-                warnings.warn(str(new_conn) + " is not yet in this Graph Collection. Creating...", Warning)
-                self.add_graph(new_conn)
+        self._graph_is_updated[graph_id].append(_add_back_edges_within_graph.remote(self.graph_dict[graph_id],
+                                                                                graph_id,
+                                                                                key,
+                                                                                adjacency_list))
+
+        for other_graph_id in connections_to_other_graphs:
+            if not other_graph_id in self.graph_dict:
+                print("Warning:", str(new_conn), "is not yet in this Graph Collection. Creating...")
+                self.add_graph(other_graph_id)
 
             try:
-                connections_to_this_graph = set(connections_to_other_graphs[new_conn])
+                connections_to_this_graph = set([connections_to_other_graphs[other_graph_id]])
             except TypeError:
-                connections_to_this_graph = set([connections_to_other_graphs[new_conn]])
+                connections_to_this_graph = set(connections_to_other_graphs[other_graph_id])
 
-            _add_back_edges_between_graphs.remote(self.graph_dict[new_conn], key, graph_id, connections_to_this_graph)
+            self._graph_is_updated[other_graph_id].append(_add_back_edges_between_graphs.remote(self.graph_dict[other_graph_id],
+                                                                                            key,
+                                                                                            graph_id,
+                                                                                            connections_to_this_graph))
 
-    def append_to_connections(self, graph_id, key, new_adjacent_node_key):
+    def append_to_connections(self, graph_id, key, adjacent_node_key):
         """
         Adds a new connection to the graph for the key provided.
 
@@ -72,7 +96,10 @@ class Graph_collection:
         key -- the unique identifier of the node in the graph.
         new_adjacent_node_key -- the unique identifier of the new connection.
         """
-        self.graph_dict[graph_id].add_new_adjacent_node.remote(key, new_adjacent_node_key)
+        self._current_transaction_id += 1
+
+        self.graph_dict[graph_id].add_new_adjacent_node.remote(key, 
+                                                               adjacent_node_key)
         
     def add_inter_graph_connection(self, graph_id, key, other_graph_id, other_graph_key):
         """
@@ -86,8 +113,16 @@ class Graph_collection:
         other_graph_id -- the unique name of the graph to connect to.
         other_graph_key -- the unique identifier of the node to connect to.
         """
-        self.graph_dict[graph_id].add_inter_graph_connection.remote(key, other_graph_id, other_graph_key)
-        self.graph_dict[other_graph_id].add_inter_graph_connection.remote(other_graph_key, graph_id, key)
+        self._current_transaction_id += 1
+
+        self.graph_dict[graph_id].add_inter_graph_connection.remote(key,
+                                                                    other_graph_id,
+                                                                    other_graph_key)
+
+        # Adding this back edge to satisfy the bi-directionality requirement
+        self.graph_dict[other_graph_id].add_inter_graph_connection.remote(other_graph_key,
+                                                                          graph_id,
+                                                                          key)
 
     def add_multiple_inter_graph_connections(self, graph_id, key, other_graph_id, collection_of_other_graph_keys):
         """
@@ -100,9 +135,17 @@ class Graph_collection:
         collection_of_other_graph_keys -- the collection of unique identifier
                                           of the node to connect to.
         """
-        self.graph_dict[graph_id].add_multiple_inter_graph_connections.remote(key, other_graph_id, collection_of_other_graph_keys)
-        _add_back_edges_between_graphs.remote(self.graph_dict[other_graph_id], key, graph_id, collection_of_other_graph_keys)
-        
+        self._current_transaction_id += 1
+
+        self.graph_dict[graph_id].add_multiple_inter_graph_connections.remote(key,
+                                                                              other_graph_id,
+                                                                              collection_of_other_graph_keys)
+
+        self._graph_is_updated[other_graph_id].append(_add_back_edges_between_graphs.remote(self.graph_dict[other_graph_id],
+                                                                                        key,
+                                                                                        graph_id,
+                                                                                        collection_of_other_graph_keys))
+
     def node_exists(self, graph_id, key):
         """
         Determines whether or not a node exists in the graph.
@@ -128,6 +171,10 @@ class Graph_collection:
         Returns:
         The Ray ObjectID from the graph and key combination requested.
         """
+
+        ray.get(self._graph_is_updated[graph_id])
+        self._graph_is_updated[graph_id] = []
+
         return self.graph_dict[graph_id].get_oid_dictionary.remote(key)
     
     def get_inter_graph_connections(self, graph_id, key, other_graph_id = ""):
@@ -145,10 +192,15 @@ class Graph_collection:
         the graph and key requested. Otherwise, the connections for the
         graph specified in other_graph_id for the graph and key requested.
         """
+
+        ray.get(self._graph_is_updated[graph_id])
+        self._graph_is_updated[graph_id] = []
+
         if other_graph_id == "":
             return self.graph_dict[graph_id].get_inter_graph_connections.remote(key)
         else:
-            return self.graph_dict[graph_id].get_inter_graph_connections.remote(key, other_graph_id)
+            return self.graph_dict[graph_id].get_inter_graph_connections.remote(key,
+                                                                                other_graph_id)
         
     def get_graph(self, graph_id):
         """
@@ -160,6 +212,10 @@ class Graph_collection:
         Returns:
         The Graph object for the graph requested.
         """
+
+        ray.get(self._graph_is_updated[graph_id])
+        self._graph_is_updated[graph_id] = []
+
         return self.graph_dict[graph_id]
 
     def get_adjacency_list(self, graph_id, key):
@@ -174,7 +230,19 @@ class Graph_collection:
         The list of all connections within the same graph for the node
         requested.
         """
+
+        ray.get(self._graph_is_updated[graph_id])
+        self._graph_is_updated[graph_id] = []
+
         return self.graph_dict[graph_id].get_adjacency_list.remote(key)
+
+@ray.remote
+class Global_Graph_Manager:
+    """
+    This actor object contains the global information for an instance of the system.
+    """
+    def __init__(self):
+        self.bool = True
 
 @ray.remote
 class Graph:
@@ -227,11 +295,9 @@ class Graph:
         for other_graph_id in connections_to_other_graphs:
             if not other_graph_id in self.inter_graph_connections[key]:
                 try:
-                    if type(connections_to_other_graphs) is str:
-                        self.inter_graph_connections[key][other_graph_id] = ray.put(set([connections_to_other_graphs[other_graph_id]]))
-                    self.inter_graph_connections[key][other_graph_id] = ray.put(set(connections_to_other_graphs[other_graph_id]))
-                except TypeError:
                     self.inter_graph_connections[key][other_graph_id] = ray.put(set([connections_to_other_graphs[other_graph_id]]))
+                except TypeError:
+                    self.inter_graph_connections[key][other_graph_id] = ray.put(set(connections_to_other_graphs[other_graph_id]))
             else:
                 self.inter_graph_connections[key][other_graph_id] = _add_to_adj_list.remote(self.inter_graph_connections[key][other_graph_id], connections_to_other_graphs[other_graph_id])
     
@@ -424,15 +490,7 @@ def _add_node_to_graph(graph, graph_id, key, node, adjacency_list, connections_t
     adjacency_list -- the list of connections within this graph.
     """
     graph.insert_node_into_graph.remote(key, node, adjacency_list, connections_to_other_graphs)
-    # if not ray.get(graph.node_exists.remote(key)):
-    #     graph.insert_node_into_graph.remote(key, node, adjacency_list, connections_to_other_graphs)
-    # else:
-    #     #TODO: Figure out how to handle this best.
-    #     # raise ValueError("Key: " + str(key) + " already exists in graph: " + graph_id + ".")
-    #     graph.add_new_adjacent_node.remote(key, adjacency_list)
-    #     for other_graph_id in connections_to_other_graphs:
-    #         graph.add_inter_graph_connection.remote(graph.get_inter_graph_connections, other_graph_id, connections_to_other_graphs[other_graph_id])
-        
+    return True
 
 @ray.remote
 def _add_to_adj_list(adj_list, other_key):
@@ -451,9 +509,9 @@ def _add_to_adj_list(adj_list, other_key):
     The updated list containing the newly added value(s).
     """
     try:
-        adj_list.update(set(other_key))
+        adj_list.update(set([other_key]))
     except TypeError:
-        adj_list.add(other_key)
+        adj_list.update(set(other_key))
     
     return adj_list    
 
@@ -472,6 +530,8 @@ def _add_back_edges_within_graph(graph, graph_id, key, new_connection_list):
     for new_conn in new_connection_list:
         graph.add_new_adjacent_node.remote(key, new_conn)
 
+    return True
+
 @ray.remote
 def _add_back_edges_between_graphs(other_graph, key, graph_id, collection_of_other_graph_keys):
     """
@@ -487,3 +547,5 @@ def _add_back_edges_between_graphs(other_graph, key, graph_id, collection_of_oth
     """
     for other_graph_key in collection_of_other_graph_keys:
         other_graph.add_inter_graph_connection.remote(other_graph_key, graph_id, key)
+
+    return True
